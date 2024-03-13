@@ -2,6 +2,8 @@ from random import choice
 import moviepy.editor as editor
 from moviepy.video.fx.resize import resize
 
+from args import parse_args
+
 class Question:
     title: str
     answers: list[str]
@@ -181,4 +183,16 @@ def produce_trivia_short(
         fps=30, 
         audio_codec="aac"
     )
-        
+
+if __name__ == "__main__":
+    arguments = parse_args()
+    print(arguments)
+    print(arguments["category"])
+    produce_trivia_short(
+        trivia_category=arguments["category"],
+        question_count=arguments["count"],
+        background=arguments["background"],
+        music=arguments["music"],
+        font=arguments["font"],
+        output=arguments["output"]
+    )

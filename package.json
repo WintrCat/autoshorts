@@ -1,9 +1,10 @@
 {
     "scripts": {
-        "start": "tsc && node dist/index.js",
-        "build": "tsc"
+        "setup": "pip install -r src/lib/python/requirements.txt && npm i",
+        "build": "tsc",
+        "start": "tsc && node dist/index.js"
     },
-    "dependencies": {
-        "pythonia": "^1.1.3"
+    "devDependencies": {
+        "@types/node": "^20.11.26"
     }
 }
