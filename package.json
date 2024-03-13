@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "start": "tsc && node dist/index.js",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "pythonia": "^1.1.3"
+    }
+}
