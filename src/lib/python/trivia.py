@@ -186,11 +186,9 @@ def produce_trivia_short(
 
 if __name__ == "__main__":
     arguments = parse_args()
-    print(arguments)
-    print(arguments["category"])
     produce_trivia_short(
         trivia_category=arguments["category"],
-        question_count=arguments["count"],
+        question_count=int(arguments["count"]),
         background=arguments["background"],
         music=arguments["music"],
         font=arguments["font"],

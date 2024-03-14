@@ -7,4 +7,4 @@ produceTriviaShort({
     output: "out/result.mp4",
     count: 2,
     category: "games"    
-}).catch(err => console.log).then(a => console.log)
+}).catch(err => console.log).then(a => console.log);
