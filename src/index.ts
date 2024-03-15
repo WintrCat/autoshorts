@@ -1,10 +1,13 @@
-import { produceTriviaShort } from "./lib/video/trivia";
+import { TriviaVideoOptions } from "./lib/video/options";
+import { MEDIA, produceVideo } from "./lib/video/video";
 
-produceTriviaShort({
-    background: "src/resources/media/starrynight.jpg",
-    music: "src/resources/media/shootingstars.mp3",
-    font: "src/resources/media/Madimi.ttf",
+produceVideo<TriviaVideoOptions>("trivia", {
+    count: 1,
+    category: "games",
     output: "out/result.mp4",
-    count: 2,
-    category: "games"    
-}).catch(err => console.log).then(a => console.log);
+    assets: {
+        background: `${MEDIA}/starrynight.jpg`,
+        font: `${MEDIA}/Madimi.ttf`,
+        music: `${MEDIA}/shootingstars.mp3`
+    }
+});

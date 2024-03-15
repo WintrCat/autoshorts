@@ -1,9 +1,12 @@
 from random import choice
+from sys import argv
+from json import loads
 import moviepy.editor as editor
 from moviepy.video.fx.resize import resize
 
-from args import parse_args
-
+#
+#   SETUP
+#
 class Question:
     title: str
     answers: list[str]
@@ -62,8 +65,10 @@ def get_question(category: str = None):
         trivia[choice(categories) if category == None else category]
     )
 
-# Produce trivia video
-def produce_trivia_short(
+#
+#   PRODUCTION
+#
+def produce_short(
     trivia_category: str,
     question_count: int,
     background: str,
@@ -185,12 +190,14 @@ def produce_trivia_short(
     )
 
 if __name__ == "__main__":
-    arguments = parse_args()
-    produce_trivia_short(
-        trivia_category=arguments["category"],
-        question_count=int(arguments["count"]),
-        background=arguments["background"],
-        music=arguments["music"],
-        font=arguments["font"],
-        output=arguments["output"]
+    args = loads(argv[1])
+    
+    produce_short(
+        trivia_category=args["category"],
+        question_count=args["count"],
+        output=args["output"],
+
+        background=args["assets"]["background"],
+        music=args["assets"]["music"],
+        font=args["assets"]["font"]
     )
