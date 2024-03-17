@@ -83,7 +83,7 @@ def produce_short(
             editor.ImageClip(background)
             .set_duration(13.5 * question_count)
         ),
-        height=1280
+        height=1920
     )
 
     music = editor.CompositeAudioClip([
@@ -103,12 +103,12 @@ def produce_short(
         question_text = (
             editor.TextClip(
                 question.title,
-                fontsize=60, 
+                fontsize=90, 
                 color="white", 
                 stroke_color="black", 
                 stroke_width=2,
                 method="caption",
-                size=(720, None),
+                size=(1080, None),
                 font=font
             )
             .set_position(("center", 0.1), relative=True)
@@ -121,12 +121,12 @@ def produce_short(
             (
                 editor.TextClip(
                     f"{list('ABCD')[i]} - {question.answers[i]}", 
-                    fontsize=60, 
+                    fontsize=90, 
                     color="white", 
                     stroke_color="black", 
                     stroke_width=2,
                     method="caption",
-                    size=(720, None),
+                    size=(1080, None),
                     font=font
                 )
                 .set_position(("center", 0.3 + (i / 7)), relative=True)
@@ -140,12 +140,12 @@ def produce_short(
             (
                 editor.TextClip(
                     str(10 - i), 
-                    fontsize=80, 
+                    fontsize=120, 
                     color="white", 
                     stroke_color="black", 
                     stroke_width=2,
                     method="caption",
-                    size=(720, None),
+                    size=(1080, None),
                     font=font
                 )
                 .set_start(question_index * 13.5 + i)
@@ -158,12 +158,12 @@ def produce_short(
         correct_answer_text = (
             editor.TextClip(
                 question.correct_answer, 
-                fontsize=80, 
+                fontsize=120, 
                 color="#00ff00", 
                 stroke_color="black", 
                 stroke_width=2,
                 method="caption",
-                size=(720, None),
+                size=(1080, None),
                 font=font
             )
             .set_start(question_index * 13.5 + 10)
@@ -178,7 +178,7 @@ def produce_short(
                 background,
                 *clips
             ], 
-            size=(720, 1280)
+            size=(1080, 1920)
         )
         .set_audio(music)
     )
