@@ -1,4 +1,4 @@
 node_modules
 out
 dist
-src/python/__pycache__
+src/lib/python/__pycache__
