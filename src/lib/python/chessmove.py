@@ -4,7 +4,6 @@ from chess import pgn
 
 import moviepy.editor as editor
 from moviepy.video.fx.resize import resize
-from moviepy.video.fx.scroll import scroll
 
 from common import slide_to_position
 
@@ -30,17 +29,11 @@ def get_square(x: int, y: int, flipped: bool = False):
         + (str(y + 1) if flipped else str(8 - y))
     )
 
-def get_coordinates(square: str, flipped: bool = False):
+def get_coordinates(square: str, flipped: bool = False, board_width: int = 1080):
     files = list("abcdefgh")
     return (
-        (7 - files.index(square[0])) if flipped else files.index(square[0]),
-        (int(square[1]) - 1) if flipped else 8 - int(square[1])
-    )
-
-def scale_coordinates(coords: tuple[int, int], board_width: int):
-    return (
-        coords[0] * (board_width / 8),
-        coords[1] * (board_width / 8)
+        ((7 - files.index(square[0])) if flipped else files.index(square[0])) * (board_width / 8),
+        ((int(square[1]) - 1) if flipped else 8 - int(square[1])) * (board_width / 8)
     )
 
 def draw_board(
@@ -88,8 +81,8 @@ def draw_board(
                 square_name = get_square(square_x, square_y, flipped)
                 if square_name == highlighted_move[0:2]:
                     piece = piece.set_position(slide_to_position(
-                        scale_coordinates(get_coordinates(square_name, flipped), width),
-                        scale_coordinates(get_coordinates(highlighted_move[2:4], flipped), width),
+                        get_coordinates(square_name, flipped),
+                        get_coordinates(highlighted_move[2:4], flipped),
                         duration - 0.1
                     ))
 
@@ -105,10 +98,9 @@ def draw_board(
             resize(
                 editor.ImageClip(f"{RESOURCES}/{highlight_type}highlight.png") 
                 .set_duration(duration)
-                .set_position(scale_coordinates(
-                    get_coordinates(highlighted_move[i * 2 : i * 2 + 2], flipped),
-                    width
-                ))
+                .set_position(
+                    get_coordinates(highlighted_move[i * 2 : i * 2 + 2], flipped)
+                )
                 .set_opacity(0.7),
                 newsize=(
                     width / 8,
@@ -121,10 +113,7 @@ def draw_board(
 
         classification_icon_size = width / 18
         classification_icon_position = list(
-            scale_coordinates(
-                get_coordinates(highlighted_move[2:4], flipped),
-                width
-            )
+            get_coordinates(highlighted_move[2:4], flipped)
         )
         classification_icon_position[0] += (width / 8) - (classification_icon_size / 1.5)
         classification_icon_position[1] -= classification_icon_size / 3
@@ -158,7 +147,7 @@ game = list(
 )
 
 boards = []
-for move_index, move_node in enumerate(game[:5]):
+for move_index, move_node in enumerate(game[:15]):
     boards.append(
         draw_board(
             move_node.board().fen(),
