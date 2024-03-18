@@ -1,11 +1,7 @@
-from sys import argv
-from json import loads
-from chess import pgn
-
 import moviepy.editor as editor
 from moviepy.video.fx.resize import resize
 
-from common import slide_to_position
+from ..common import slide_to_position
 
 RESOURCES = "./src/resources/chess"
 PIECES = {
@@ -29,12 +25,14 @@ def get_square(x: int, y: int, flipped: bool = False):
         + (str(y + 1) if flipped else str(8 - y))
     )
 
+
 def get_coordinates(square: str, flipped: bool = False, board_width: int = 1080):
     files = list("abcdefgh")
     return (
         ((7 - files.index(square[0])) if flipped else files.index(square[0])) * (board_width / 8),
         ((int(square[1]) - 1) if flipped else 8 - int(square[1])) * (board_width / 8)
     )
+
 
 def draw_board(
     fen: str,
@@ -138,46 +136,3 @@ def draw_board(
         result_clips.append(classification_icon)
 
     return editor.CompositeVideoClip(result_clips)
-
-game = list(
-    pgn.read_game(
-        open("./src/resources/chess/sample.pgn")
-    )
-    .mainline()
-)
-
-boards = []
-for move_index, move_node in enumerate(game[:15]):
-    boards.append(
-        draw_board(
-            move_node.board().fen(),
-            duration=0.5,
-            highlighted_move=move_node.uci(),
-            brilliancy=True
-        )
-        .set_start(move_index * 0.7)
-    )
-
-    if move_index >= len(game) - 1:
-        break
-
-    upcoming_move = game[move_index + 1].uci()
-    boards.append(
-        draw_board(
-            move_node.board().fen(),
-            duration=0.2,
-            highlighted_move=upcoming_move,
-            animated=True,
-            brilliancy=True
-        )
-        .set_start(move_index * 0.7 + 0.5)
-    )
-
-result = editor.CompositeVideoClip(boards)
-
-result.write_videofile(
-    "out/chess.mp4",
-    fps=24,
-    audio_codec="aac",
-    threads=4
-)
