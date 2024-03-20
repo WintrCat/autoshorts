@@ -3,7 +3,6 @@ export interface VideoOptions {
 }
 
 type TriviaVideoCategory = "animals" | "games";
-
 export interface TriviaVideoOptions extends VideoOptions {
     count: number;
     category: TriviaVideoCategory;
@@ -12,4 +11,8 @@ export interface TriviaVideoOptions extends VideoOptions {
         music: string;
         font: string;
     }
+}
+
+export interface ChessShowcaseVideoOptions extends VideoOptions {
+    pgn: string;
 }

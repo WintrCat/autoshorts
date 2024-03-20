@@ -1,13 +1,11 @@
-import { TriviaVideoOptions } from "./lib/video/options";
-import { MEDIA, produceVideo } from "./lib/video/video";
+import { readFileSync } from "fs";
+import { ChessShowcaseVideoOptions } from "./lib/video/options";
+import { renderVideo } from "./lib/video/video";
 
-produceVideo<TriviaVideoOptions>("trivia", {
-    count: 1,
-    category: "games",
-    output: "out/result.mp4",
-    assets: {
-        background: `${MEDIA}/starrynight.jpg`,
-        font: `${MEDIA}/Madimi.ttf`,
-        music: `${MEDIA}/shootingstars.mp3`
+renderVideo<ChessShowcaseVideoOptions>(
+    "chess/showcase",
+    {
+        output: "out/chess.mp4",
+        pgn: readFileSync("src/resources/chess/sample.pgn", "utf-8")
     }
-});
+);

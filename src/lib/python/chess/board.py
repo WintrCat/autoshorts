@@ -1,7 +1,7 @@
 import moviepy.editor as editor
 from moviepy.video.fx.resize import resize
 
-from ..common import slide_to_position
+from common import slide_to_position
 
 RESOURCES = "./src/resources/chess"
 PIECES = {
