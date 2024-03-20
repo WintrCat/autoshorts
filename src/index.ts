@@ -6,6 +6,6 @@ renderVideo<ChessShowcaseVideoOptions>(
     "chess/showcase",
     {
         output: "out/chess.mp4",
-        pgn: readFileSync("src/resources/chess/sample.pgn", "utf-8")
+        pgn: readFileSync("./src/resources/chess/sample.pgn", "utf-8")
     }
 );

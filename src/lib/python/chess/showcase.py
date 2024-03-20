@@ -38,23 +38,25 @@ def produce_short(
             highlighted_move=game_moves[1].uci(),
             animated=True,
             brilliancy=True,
-            duration=0.25
+            duration=0.2
         ).set_start(5),
 
         draw_board(
             fen=game_moves[1].board().fen(),
             flipped=flipped,
             highlighted_move=game_moves[1].uci(),
+            brilliancy=True,
             duration=5
-        ).set_start(5.25)
+        ).set_start(5.2)
     ]
 
     result = editor.CompositeVideoClip(board_clips)
 
     result.write_videofile(
         filename=output,
-        fps=30,
-        audio_codec="aac"
+        fps=24,
+        audio_codec="aac",
+        threads=14
     )
 
 

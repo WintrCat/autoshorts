@@ -1,5 +1,12 @@
+from chess import (
+    Board, 
+    square_name as square_name_of, 
+    parse_square, 
+    PAWN
+)
 import moviepy.editor as editor
 from moviepy.video.fx.resize import resize
+from moviepy.video.compositing.transitions import crossfadeout
 
 from common import slide_to_position
 
@@ -51,8 +58,20 @@ def draw_board(
         ),
         newsize=(width, width)
     )
+    piece_clips = []
 
-    pieces: list[editor.ImageClip] = []
+    board = Board(fen)
+
+    ep_square = None
+    ep_fade_square = None
+    
+    if not board.ep_square is None:
+        ep_square = square_name_of(board.ep_square)
+        if ep_square[1] == "3":
+            ep_fade_square = ep_square[0] + "4"
+        else:
+            ep_fade_square = ep_square[0] + "5"
+
     square_x = 7 if flipped else 0
     square_y = square_x
     for char in fen.split(" ")[0]:
@@ -66,8 +85,8 @@ def draw_board(
                 editor.ImageClip(f"{RESOURCES}/{PIECES[char]}.webp")
                 .set_duration(duration)
                 .set_position((
-                    round(square_x * (width / 8)),
-                    round(square_y * (width / 8))
+                    square_x * (width / 8),
+                    square_y * (width / 8)
                 )),
                 newsize=(
                     width / 8,
@@ -75,16 +94,25 @@ def draw_board(
                 )
             )
 
+            square_name = get_square(square_x, square_y, flipped)
             if animated:
-                square_name = get_square(square_x, square_y, flipped)
                 if square_name == highlighted_move[0:2]:
                     piece = piece.set_position(slide_to_position(
                         get_coordinates(square_name, flipped),
                         get_coordinates(highlighted_move[2:4], flipped),
-                        duration - 0.1
+                        duration - 0.05
                     ))
+                elif (
+                    square_name == highlighted_move[2:4]
+                    or (
+                        square_name == ep_fade_square
+                        and highlighted_move[2:4] == ep_square
+                        and board.piece_at(parse_square(highlighted_move[0:2])).piece_type == PAWN
+                    )
+                ):
+                    piece = crossfadeout(piece, duration - 0.05)                    
 
-            pieces.append(piece)
+            piece_clips.append(piece)
 
             square_x += -1 if flipped else 1
 
@@ -129,7 +157,7 @@ def draw_board(
     result_clips = [
         background,
         *move_highlights,
-        *pieces
+        *piece_clips
     ]
 
     if brilliancy:
