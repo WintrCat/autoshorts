@@ -4,11 +4,10 @@ from chess import (
     parse_square, 
     PAWN
 )
+
 import moviepy.editor as editor
 from moviepy.video.fx.resize import resize
 from moviepy.video.compositing.transitions import crossfadeout
-
-from common import slide_to_position
 
 RESOURCES = "./src/resources/chess"
 PIECES = {
@@ -25,6 +24,16 @@ PIECES = {
     "K": "white_king",
     "P": "white_pawn"
 }
+
+def slide_to_position(
+    start: tuple[int, int],
+    end: tuple[int, int],
+    duration: int
+):
+    return lambda t : (
+        start[0] + (min(t, duration) / duration) * (end[0] - start[0]),
+        start[1] + (min(t, duration) / duration) * (end[1] - start[1])
+    )
 
 def get_square(x: int, y: int, flipped: bool = False):
     return (

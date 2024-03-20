@@ -1,6 +1,7 @@
 from random import choice
 from sys import argv
 from json import loads
+
 import moviepy.editor as editor
 from moviepy.video.fx.resize import resize
 

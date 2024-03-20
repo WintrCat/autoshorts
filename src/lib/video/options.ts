@@ -15,4 +15,8 @@ export interface TriviaVideoOptions extends VideoOptions {
 
 export interface ChessShowcaseVideoOptions extends VideoOptions {
     pgn: string;
+    assets: {
+        background: string;
+        font: string;
+    }
 }
