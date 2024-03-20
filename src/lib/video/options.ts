@@ -18,5 +18,6 @@ export interface ChessShowcaseVideoOptions extends VideoOptions {
     assets: {
         background: string;
         font: string;
+        music: string;
     }
 }

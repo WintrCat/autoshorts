@@ -19,7 +19,8 @@ def produce_short(
     output: str,
     game_pgn: str,
     background: str,
-    font: str
+    font: str,
+    music: str
 ):
     background = resize(
         (
@@ -104,7 +105,6 @@ def produce_short(
         ).set_start(clip_durations["puzzle"] + clip_durations["move"])
     ]
 
-    # Move audio
     move_audio_clip = None
     brilliancy_san = game_moves[1].san()
 
@@ -119,7 +119,12 @@ def produce_short(
         .set_start(clip_durations["puzzle"])
     )
 
-    # Solution text
+    music_clip = (
+        editor.AudioFileClip(music)
+        .cutout(0, 25)
+        .set_duration(full_duration)
+    )
+
     solution_text = (
         editor.TextClip(
             brilliancy_san,
@@ -144,7 +149,8 @@ def produce_short(
         *board_clips
     ]).set_audio(
         editor.CompositeAudioClip([
-            move_audio_clip
+            move_audio_clip,
+            music_clip
         ])
     )
 
@@ -163,5 +169,6 @@ if __name__ == "__main__":
         output=args["output"],
         game_pgn=args["pgn"],
         background=args["assets"]["background"],
-        font=args["assets"]["font"]
+        font=args["assets"]["font"],
+        music=args["assets"]["music"]
     )

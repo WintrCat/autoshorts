@@ -9,7 +9,8 @@ renderVideo<ChessShowcaseVideoOptions>(
         pgn: readFileSync("./src/resources/chess/sample.pgn", "utf-8"),
         assets: {
             background: "./src/resources/chess/gridbackgroundportrait.png",
-            font: "./src/resources/media/Madimi.ttf"
+            font: "./src/resources/media/Madimi.ttf",
+            music: "./src/resources/media/shootingstars.mp3"
         }
     }
 );
