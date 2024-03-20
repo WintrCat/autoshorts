@@ -187,7 +187,8 @@ def produce_short(
     result.write_videofile(
         output, 
         fps=30, 
-        audio_codec="aac"
+        audio_codec="aac",
+        threads=4
     )
 
 if __name__ == "__main__":

@@ -64,7 +64,6 @@ def produce_short(
         ) for i in range(clip_durations["puzzle"])
     ]
 
-    # Chess boards to showcase the move
     game_moves = list(
         pgn.read_game(StringIO(game_pgn))
         .mainline()
@@ -158,7 +157,7 @@ def produce_short(
         filename=output,
         fps=24,
         audio_codec="aac",
-        threads=14
+        threads=4
     )
 
 

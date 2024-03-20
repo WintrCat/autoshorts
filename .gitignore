@@ -1,4 +1,5 @@
 node_modules
 out
 dist
-src/lib/python/__pycache__
+src/lib/*/**/__pycache__
+*.mp4
