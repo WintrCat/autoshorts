@@ -35,6 +35,7 @@ def slide_to_position(
         start[1] + (min(t, duration) / duration) * (end[1] - start[1])
     )
 
+
 def get_square(x: int, y: int, flipped: bool = False):
     return (
         list("abcdefgh")[(7 - x) if flipped else x]

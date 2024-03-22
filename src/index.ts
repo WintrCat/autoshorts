@@ -10,7 +10,8 @@ renderVideo<ChessShowcaseVideoOptions>(
         assets: {
             background: "./src/resources/chess/gridbackgroundportrait.png",
             font: "./src/resources/media/Madimi.ttf",
-            music: "./src/resources/media/shootingstars.mp3"
-        }
+            music: "./src/resources/media/pvz.mp3"
+        },
+        musicDropTime: 8.5
     }
 );

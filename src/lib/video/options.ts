@@ -15,6 +15,7 @@ export interface TriviaVideoOptions extends VideoOptions {
 
 export interface ChessShowcaseVideoOptions extends VideoOptions {
     pgn: string;
+    musicDropTime: number;
     assets: {
         background: string;
         font: string;

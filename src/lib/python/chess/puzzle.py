@@ -9,9 +9,9 @@ from moviepy.video.fx.resize import resize
 from board import draw_board
 
 clip_durations = {
-    "puzzle": 10,
+    "puzzle": 1,
     "move": 0.2,
-    "solution": 5
+    "solution": 1
 }
 full_duration = sum(clip_durations.values())
 
@@ -20,8 +20,10 @@ def produce_short(
     game_pgn: str,
     background: str,
     font: str,
-    music: str
+    music: str,
+    music_drop_time: float
 ):
+    # Background image
     background = resize(
         (
             editor.ImageClip(background)
@@ -31,6 +33,7 @@ def produce_short(
         height=1920
     )
 
+    # Puzzle question text
     question_text = (
         editor.TextClip(
             "Can you find the brilliant move?",
@@ -46,6 +49,7 @@ def produce_short(
         .set_position((0, 0.6), relative=True)
     )
 
+    # Puzzle countdown text clips
     countdown_texts = [
         (
             editor.TextClip(
@@ -64,6 +68,7 @@ def produce_short(
         ) for i in range(clip_durations["puzzle"])
     ]
 
+    # Chess board elements
     game_moves = list(
         pgn.read_game(StringIO(game_pgn))
         .mainline()
@@ -104,6 +109,7 @@ def produce_short(
         ).set_start(clip_durations["puzzle"] + clip_durations["move"])
     ]
 
+    # Piece moving audio
     move_audio_clip = None
     brilliancy_san = game_moves[1].san()
 
@@ -118,12 +124,16 @@ def produce_short(
         .set_start(clip_durations["puzzle"])
     )
 
+    # Background music
+    music_start_time = max(0, music_drop_time - clip_durations["puzzle"])
     music_clip = (
         editor.AudioFileClip(music)
-        .cutout(0, 25)
+        .set_fps(24)
+        .cutout(0, music_start_time)
         .set_duration(full_duration)
     )
 
+    # Correct move text
     solution_text = (
         editor.TextClip(
             brilliancy_san,
@@ -169,5 +179,6 @@ if __name__ == "__main__":
         game_pgn=args["pgn"],
         background=args["assets"]["background"],
         font=args["assets"]["font"],
-        music=args["assets"]["music"]
+        music=args["assets"]["music"],
+        music_drop_time=args["musicDropTime"]
     )
