@@ -1,19 +1,35 @@
 from sys import argv
 from json import loads
 from io import StringIO
-from chess import pgn
+from chess import (
+    Move,
+    pgn,
+    parse_square,
+    PAWN, KNIGHT, BISHOP, ROOK, QUEEN, KING
+)
+from stockfish import Stockfish
 
 import moviepy.editor as editor
 from moviepy.video.fx.resize import resize
+from moviepy.audio.fx.volumex import volumex
 
-from board import draw_board
+from board import *
 
 clip_durations = {
     "puzzle": 1,
     "move": 0.2,
-    "solution": 1
+    "solution": 1,
+    "line_move": 1
 }
-full_duration = sum(clip_durations.values())
+
+piece_values = {
+    PAWN: 1,
+    KNIGHT: 3,
+    BISHOP: 3,
+    ROOK: 5,
+    QUEEN: 9,
+    KING: 2 ** 32
+}
 
 def produce_short(
     output: str,
@@ -23,16 +39,6 @@ def produce_short(
     music: str,
     music_drop_time: float
 ):
-    # Background image
-    background = resize(
-        (
-            editor.ImageClip(background)
-            .set_duration(full_duration)
-            .set_position((0, 0))
-        ),
-        height=1920
-    )
-
     # Puzzle question text
     question_text = (
         editor.TextClip(
@@ -68,7 +74,7 @@ def produce_short(
         ) for i in range(clip_durations["puzzle"])
     ]
 
-    # Chess board elements
+    # Initial chess board elements
     game_moves = list(
         pgn.read_game(StringIO(game_pgn))
         .mainline()
@@ -97,6 +103,7 @@ def produce_short(
             highlighted_move=game_moves[1].uci(),
             animated=True,
             brilliancy=True,
+            audio=True,
             duration=clip_durations["move"]
         ).set_start(clip_durations["puzzle"]),
 
@@ -109,34 +116,99 @@ def produce_short(
         ).set_start(clip_durations["puzzle"] + clip_durations["move"])
     ]
 
-    # Piece moving audio
-    move_audio_clip = None
-    brilliancy_san = game_moves[1].san()
+    # Take the sacrificed piece with lowest value attacker
+    # Play through the top engine line after (max of 5 moves into line)
+    line_board_clips = []
 
-    move_audio_clip_name = "move"
-    if brilliancy_san.endswith("+"):
-        move_audio_clip_name = "check"
-    elif "x" in brilliancy_san:
-        move_audio_clip_name = "capture"
+    brilliancy_board = game_moves[1].board()
 
-    move_audio_clip = (
-        editor.AudioFileClip(f"./src/resources/chess/{move_audio_clip_name}.mp3")
-        .set_start(clip_durations["puzzle"])
+    # Find legal moves that capture the sacrificed piece
+    capturing_moves: list[Move] = []
+
+    sacrifice_square = parse_square(game_moves[1].uci()[2:4])
+    for legal_move in brilliancy_board.legal_moves:
+        if legal_move.to_square == sacrifice_square:
+            capturing_moves.append(legal_move)
+
+    # Find the move with the lowest value capturer
+    lowest_value_capture = min(
+        capturing_moves,
+        key=lambda atk : piece_values[
+            brilliancy_board.piece_at(atk.from_square).piece_type
+        ]
+    )
+    if not lowest_value_capture.promotion is None:
+        lowest_value_capture.promotion = QUEEN
+
+    # Add the board clips for this capture and play on the board
+    line_clips_start_time = sum([
+        clip_durations["puzzle"],
+        clip_durations["move"],
+        clip_durations["solution"]
+    ])
+
+    line_board_clips.append(
+        draw_move_with_preview(
+            fen=brilliancy_board.fen(),
+            flipped=flipped,
+            highlighted_move=lowest_value_capture.uci(),
+            audio=True,
+            move_duration=clip_durations["move"],
+            preview_duration=clip_durations["line_move"]
+        )
+        .set_start(line_clips_start_time)
     )
 
-    # Background music
-    music_start_time = max(0, music_drop_time - clip_durations["puzzle"])
-    music_clip = (
-        editor.AudioFileClip(music)
-        .set_fps(24)
-        .cutout(0, music_start_time)
-        .set_duration(full_duration)
+    brilliancy_board.push(lowest_value_capture)
+
+    # Go through the next couple top engine moves and add their board clips
+    sf_engine = Stockfish("./src/resources/bin/stockfish.exe")
+    sf_engine.set_depth(18)
+    sf_engine.set_fen_position(brilliancy_board.fen())
+
+    for move_index in range(5):
+        top_engine_move = sf_engine.get_best_move()
+
+        line_board_clips.append(
+            draw_move_with_preview(
+                fen=sf_engine.get_fen_position(),
+                flipped=flipped,
+                highlighted_move=top_engine_move,
+                audio=True,
+                move_duration=clip_durations["move"],
+                preview_duration=clip_durations["line_move"]
+            )
+            .set_start(
+                line_clips_start_time
+                + len(line_board_clips) * (
+                    clip_durations["move"] + clip_durations["line_move"]
+                )
+            )
+        )
+
+        sf_engine.make_moves_from_current_position([top_engine_move])
+
+    # Calculate full short duration given these engine line clips
+    full_duration = sum(clip_durations.values()) + (
+        (len(line_board_clips) - 1) * (clip_durations["move"] + clip_durations["line_move"])
+    )
+
+    # Background image
+    background = resize(
+        (
+            editor.ImageClip(background)
+            .set_duration(full_duration)
+            .set_position((0, 0))
+        ),
+        height=1920
     )
 
     # Correct move text
+    solution_san = game_moves[1].san()
+
     solution_text = (
         editor.TextClip(
-            brilliancy_san,
+            solution_san,
             font=font,
             fontsize=160,
             color="#00ff00",
@@ -146,8 +218,16 @@ def produce_short(
             size=(1080, None)
         )
         .set_start(clip_durations["puzzle"])
-        .set_duration(clip_durations["move"] + clip_durations["solution"])
+        .set_end(full_duration)
         .set_position((0, 0.75), relative=True)
+    )
+
+    # Background music
+    music_start_time = max(0, music_drop_time - clip_durations["puzzle"])
+    music_clip = (
+        editor.AudioFileClip(music)
+        .cutout(0, music_start_time)
+        .set_duration(full_duration)
     )
 
     result = editor.CompositeVideoClip([
@@ -155,13 +235,10 @@ def produce_short(
         question_text,
         *countdown_texts,
         solution_text,
-        *board_clips
-    ]).set_audio(
-        editor.CompositeAudioClip([
-            move_audio_clip,
-            music_clip
-        ])
-    )
+        *board_clips,
+        *line_board_clips
+    ])
+    result.audio.clips.append(music_clip)
 
     result.write_videofile(
         filename=output,

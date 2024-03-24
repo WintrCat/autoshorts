@@ -57,9 +57,11 @@ def draw_board(
     highlighted_move: str = None,
     animated: bool = False,
     brilliancy: bool = False,
+    audio: bool = False,
     width: int = 1080,
-    duration: int = 10
+    duration: float = 10
 ):  
+    # Board
     board_flip_suffix = "flipped" if flipped else ""
     background = resize(
         (
@@ -72,6 +74,7 @@ def draw_board(
 
     board = Board(fen)
 
+    # Pieces on the board with animation if requested
     ep_square = None
     ep_fade_square = None
     
@@ -126,6 +129,7 @@ def draw_board(
 
             square_x += -1 if flipped else 1
 
+    # Move highlight and classification icon
     move_highlights = []
     if not highlighted_move is None:
         highlight_type = "brilliant" if brilliancy else "default"
@@ -137,14 +141,13 @@ def draw_board(
                 .set_position(
                     get_coordinates(highlighted_move[i * 2 : i * 2 + 2], flipped)
                 )
-                .set_opacity(0.7),
+                .set_opacity(0.7 if brilliancy else 0.5),
+
                 newsize=(
                     width / 8,
                     width / 8
                 )
-            )
-            
-            for i in range(2)
+            ) for i in range(2)
         ]
 
         classification_icon_size = width / 18
@@ -164,13 +167,78 @@ def draw_board(
             )
         )
 
-    result_clips = [
+    # Move Audio
+    result_audio_clips = []
+    if (not highlighted_move is None) and audio:
+        print("heloooo")
+        highlighted_move_san = board.san(board.parse_uci(highlighted_move))
+
+        result_audio_clips.append(
+            get_move_audio(highlighted_move_san)
+        )
+
+    result_video_clips = [
         background,
         *move_highlights,
         *piece_clips
     ]
 
     if brilliancy:
-        result_clips.append(classification_icon)
+        result_video_clips.append(classification_icon)
 
-    return editor.CompositeVideoClip(result_clips)
+    # Composite result clip
+    result = editor.CompositeVideoClip(result_video_clips)
+    if len(result_audio_clips) > 0:
+        result.audio = editor.CompositeAudioClip(result_audio_clips)
+
+    return result
+
+
+def draw_move_with_preview(
+    fen: str,
+    flipped: bool = False,
+    highlighted_move: str = None,
+    brilliancy: bool = False,
+    audio: bool = False,
+    width: int = 1080,
+    move_duration: float = 0.2,
+    preview_duration: float = 1
+):
+    board = Board(fen)
+
+    move_board_clip = draw_board(
+        fen=fen,
+        flipped=flipped,
+        highlighted_move=highlighted_move,
+        animated=True,
+        brilliancy=brilliancy,
+        audio=audio,
+        width=width,
+        duration=move_duration
+    )
+
+    board.push_uci(highlighted_move)
+
+    preview_board_clip = draw_board(
+        fen=board.fen(),
+        flipped=flipped,
+        highlighted_move=highlighted_move,
+        brilliancy=brilliancy,
+        width=width,
+        duration=preview_duration
+    ).set_start(move_duration)
+
+    return editor.CompositeVideoClip([
+        move_board_clip,
+        preview_board_clip
+    ])
+
+
+def get_move_audio(move_san: str):
+    move_audio_clip_name = "move"
+    if move_san.endswith("+"):
+        move_audio_clip_name = "check"
+    elif "x" in move_san:
+        move_audio_clip_name = "capture"
+
+    return editor.AudioFileClip(f"./src/resources/chess/{move_audio_clip_name}.mp3")
