@@ -170,7 +170,6 @@ def draw_board(
     # Move Audio
     result_audio_clips = []
     if (not highlighted_move is None) and audio:
-        print("heloooo")
         highlighted_move_san = board.san(board.parse_uci(highlighted_move))
 
         result_audio_clips.append(
