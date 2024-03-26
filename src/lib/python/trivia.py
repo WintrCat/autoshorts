@@ -1,4 +1,4 @@
-from random import choice
+from random import randint, choice
 from sys import argv
 from json import loads
 
@@ -77,11 +77,11 @@ def produce_short(
     font: str,
     output: str
 ):
-    # Show question for 10 seconds, answer for 3.5 secs
-
+    background_video_length = editor.VideoFileClip(background).duration
     background = resize(
         (
-            editor.ImageClip(background)
+            editor.VideoFileClip(background)
+            .cutout(0, randint(1, background_video_length - 65))
             .set_duration(13.5 * question_count)
         ),
         height=1920

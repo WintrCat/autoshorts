@@ -1,8 +1,9 @@
+import { TriviaVideoCategory } from "./trivia";
+
 export interface VideoOptions {
     output: string;
 }
 
-type TriviaVideoCategory = "animals" | "games";
 export interface TriviaVideoOptions extends VideoOptions {
     count: number;
     category: TriviaVideoCategory;

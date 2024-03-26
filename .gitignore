@@ -3,4 +3,4 @@ out
 dist
 assets
 src/lib/*/**/__pycache__
-*.mp4
+.env

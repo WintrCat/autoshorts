@@ -1,10 +1,12 @@
 import fs from "fs";
 import { sample } from "lodash";
+import { config } from "dotenv";
+config();
 
 import { renderVideo } from "../video";
 import { ChessPuzzleVideoOptions } from "../types/options";
 
-import musicTracks from "../../resources/music/tracks.json";
+import phonkTracks from "../../resources/music/phonk/tracks.json";
 
 export async function producePuzzleShort(output: string) {
 
@@ -28,9 +30,9 @@ export async function producePuzzleShort(output: string) {
     );
 
     // Pick a random music track from tracks.json
-    const musicTrack = sample(musicTracks);
+    const musicTrack = sample(phonkTracks);
     if (!musicTrack) {
-        throw Error("there are no defined music tracks.");
+        throw Error("there are no defined phonk music tracks.");
     }
 
     // Render the video
@@ -49,6 +51,8 @@ export async function producePuzzleShort(output: string) {
     );
 
     // Delete the used PGN file
-    // fs.rmSync("assets/" + pgnFile);
+    if (process.env.NODE_ENV != "dev") {
+        fs.rmSync("assets/" + pgnFile);
+    }
 
 }

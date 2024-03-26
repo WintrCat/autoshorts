@@ -7,6 +7,10 @@
 <br>
 `npm start` Compiles TypeScript and runs entry point.
 
+### 🔑 Environment Variables
+`NODE_ENV` The environment in which the application is running; "dev" or "prod".
+Used assets are not deleted when in the development environment.
+
 ### 📂 Asset feeding
 Some of the video types require manually picked assets to produce
 videos. For example, the Chess shorts require PGNs with brilliant

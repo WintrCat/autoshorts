@@ -129,6 +129,10 @@ def produce_short(
         if legal_move.to_square == sacrifice_square:
             capturing_moves.append(legal_move)
 
+    # If there are no pieces that can take the sacrificed piece
+    if len(capturing_moves) == 0:
+        raise ValueError("the sacrificed piece is not the one that just moved.")
+
     # Find the move with the lowest value capturer
     lowest_value_capture = min(
         capturing_moves,
