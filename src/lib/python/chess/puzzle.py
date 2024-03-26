@@ -165,8 +165,10 @@ def produce_short(
     sf_engine.set_depth(18)
     sf_engine.set_fen_position(brilliancy_board.fen())
 
-    for move_index in range(5):
+    for i in range(7):
         top_engine_move = sf_engine.get_best_move()
+        if top_engine_move is None:
+            break
 
         line_board_clips.append(
             draw_move_with_preview(
@@ -188,8 +190,12 @@ def produce_short(
         sf_engine.make_moves_from_current_position([top_engine_move])
 
     # Calculate full short duration given these engine line clips
-    full_duration = sum(clip_durations.values()) + (
-        (len(line_board_clips) - 1) * (clip_durations["move"] + clip_durations["line_move"])
+    full_duration = (
+        sum(clip_durations.values())
+        + -clip_durations["line_move"]
+        + (
+            len(line_board_clips) * (clip_durations["move"] + clip_durations["line_move"])
+        )
     )
 
     # Background image
@@ -207,7 +213,7 @@ def produce_short(
 
     solution_text = (
         editor.TextClip(
-            solution_san,
+            solution_san + "!!",
             font=font,
             fontsize=160,
             color="#00ff00",
@@ -218,11 +224,11 @@ def produce_short(
         )
         .set_start(clip_durations["puzzle"])
         .set_end(full_duration)
-        .set_position((0, 0.75), relative=True)
+        .set_position((0, 0.65), relative=True)
     )
 
     # Background music
-    music_start_time = max(0, music_drop_time - clip_durations["puzzle"])
+    music_start_time = max(0.01, music_drop_time - clip_durations["puzzle"])
     music_clip = (
         editor.AudioFileClip(music)
         .cutout(0, music_start_time)

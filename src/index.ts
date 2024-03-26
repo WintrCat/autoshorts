@@ -1,17 +1,3 @@
-import { readFileSync } from "fs";
-import { ChessShowcaseVideoOptions } from "./lib/video/options";
-import { renderVideo } from "./lib/video/video";
+import { producePuzzleShort } from "./lib/videos/puzzle";
 
-renderVideo<ChessShowcaseVideoOptions>(
-    "chess/puzzle",
-    {
-        output: "out/chess.mp4",
-        pgn: readFileSync("./src/resources/chess/sample.pgn", "utf-8"),
-        assets: {
-            background: "./src/resources/chess/gridbackgroundportrait.png",
-            font: "./src/resources/media/Madimi.ttf",
-            music: "./src/resources/media/test.wav"
-        },
-        musicDropTime: 13.3
-    }
-);
+producePuzzleShort("out/chess.mp4");

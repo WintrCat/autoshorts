@@ -5,6 +5,10 @@
         "start": "tsc && node dist/index.js"
     },
     "devDependencies": {
+        "@types/lodash": "^4.17.0",
         "@types/node": "^20.11.26"
+    },
+    "dependencies": {
+        "lodash": "^4.17.21"
     }
 }
