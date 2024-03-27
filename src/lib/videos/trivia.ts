@@ -1,18 +1,34 @@
+import { readdirSync } from "fs";
 import { sample } from "lodash";
 
 import { renderVideo } from "../video";
-import { TriviaVideoCategory } from "../types/trivia";
 import { TriviaVideoOptions } from "../types/options";
-import { readdirSync } from "fs";
+import { TriviaQuestion, TriviaCategory } from "../types/trivia";
 
-export async function produceTriviaShort(output: string) {
+import triviaQuestions from "../../resources/trivia/questions.json";
 
-    const questionCount = 3;
+export async function produceTriviaShort(output: string, questionCount: number) {
 
     // Pick a random category of trivia questions
-    const questionsCategory = sample(
-        Object.values(TriviaVideoCategory)
-    )!;
+    const questionsCategory = sample(Object.keys(triviaQuestions)) as TriviaCategory;
+    if (!questionsCategory) {
+        throw Error("trivia questions file has no defined catgories.");
+    }
+
+    // Pick a random set of questions from that category
+    const questions: TriviaQuestion[] = [];
+    for (let i = 0; i < questionCount; i++) {
+        const question = sample(triviaQuestions[questionsCategory]);
+        if (!question) {
+            throw Error(`the trivia category '${questionsCategory}' has no defined questions.`);
+        }
+
+        questions.push(question);
+        triviaQuestions[questionsCategory].splice(
+            triviaQuestions[questionsCategory].indexOf(question),
+            1
+        );
+    }
 
     // Pick a random lofi music track
     const lofiTrackFile = sample(
@@ -27,8 +43,7 @@ export async function produceTriviaShort(output: string) {
         "trivia",
         {
             output: output,
-            count: questionCount,
-            category: questionsCategory,
+            questions: questions,
             assets: {
                 background: "src/resources/parkour.mp4",
                 font: "src/resources/default.ttf",

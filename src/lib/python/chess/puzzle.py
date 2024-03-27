@@ -11,6 +11,7 @@ from stockfish import Stockfish
 
 import moviepy.editor as editor
 from moviepy.video.fx.resize import resize
+from moviepy.audio.fx.volumex import volumex
 
 from board import *
 
@@ -246,7 +247,7 @@ def produce_short(
         solution_text,
         *board_clips,
         *line_board_clips
-    ])
+    ], size=(1080, 1920))
     result.audio.clips.append(music_clip)
 
     result.write_videofile(
@@ -261,10 +262,11 @@ if __name__ == "__main__":
     args = loads(argv[1])
 
     produce_short(
-        output=args["output"],
         game_pgn=args["pgn"],
         background=args["assets"]["background"],
         font=args["assets"]["font"],
         music=args["assets"]["music"],
-        music_drop_time=args["musicDropTime"]
+        music_drop_time=args["musicDropTime"],
+
+        output=args["output"]
     )

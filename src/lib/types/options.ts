@@ -1,25 +1,22 @@
-import { TriviaVideoCategory } from "./trivia";
+import { TriviaQuestion } from "./trivia";
 
 export interface VideoOptions {
     output: string;
 }
 
+export interface VideoResources {
+    background: string;
+    music: string;
+    font: string;
+}
+
 export interface TriviaVideoOptions extends VideoOptions {
-    count: number;
-    category: TriviaVideoCategory;
-    assets: {
-        background: string;
-        music: string;
-        font: string;
-    }
+    questions: TriviaQuestion[];
+    assets: VideoResources;
 }
 
 export interface ChessPuzzleVideoOptions extends VideoOptions {
     pgn: string;
     musicDropTime: number;
-    assets: {
-        background: string;
-        font: string;
-        music: string;
-    }
+    assets: VideoResources;
 }

@@ -45,7 +45,7 @@ export async function producePuzzleShort(output: string) {
             assets: {
                 background: "src/resources/gridbackground.png",
                 font: "src/resources/default.ttf",
-                music: "src/resources/music/" + musicTrack.filename
+                music: "src/resources/music/phonk/" + musicTrack.filename
             }
         }
     );
