@@ -234,10 +234,13 @@ def produce_short(
 
     # Background music
     music_start_time = max(0.01, music_drop_time - clip_durations["puzzle"])
-    music_clip = (
-        editor.AudioFileClip(music)
-        .cutout(0, music_start_time)
-        .set_duration(full_duration)
+    music_clip = volumex(
+        (
+            editor.AudioFileClip(music)
+            .cutout(0, music_start_time)
+            .set_duration(full_duration)
+        ),
+        0.5
     )
 
     result = editor.CompositeVideoClip([
@@ -254,7 +257,8 @@ def produce_short(
         filename=output,
         fps=24,
         audio_codec="aac",
-        threads=4
+        threads=4,
+        temp_audiofile="out/TEMP_chess_puzzle.mp4"
     )
 
 

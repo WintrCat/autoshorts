@@ -1,10 +1,17 @@
-from random import randint, choice
+from random import randint
 from sys import argv
 from json import loads
 
 import moviepy.editor as editor
 from moviepy.video.fx.resize import resize
 from moviepy.audio.fx.volumex import volumex
+
+
+clip_durations = {
+    "question": 10,
+    "answer": 2.5
+}
+full_question_duration = sum(clip_durations.values())
 
 
 class Question:
@@ -25,21 +32,29 @@ def produce_short(
 ):
     question_count = len(questions)
 
-    background_video_length = editor.VideoFileClip(background).duration
+    background_duration = editor.VideoFileClip(background).duration
     background = resize(
         (
             editor.VideoFileClip(background)
-            .cutout(0, randint(1, round(background_video_length) - 65))
-            .set_duration(13.5 * question_count)
+            .cutout(0, randint(1, round(background_duration) - 65))
+            .set_duration(full_question_duration * question_count)
             .set_position(("center", "center"))
         ),
         height=1920
     )
 
-    music = editor.CompositeAudioClip([
-        editor.AudioFileClip(music)
-        .set_end(13.5 * question_count)
-    ])
+    music_duration = editor.AudioFileClip(music).duration
+    music = volumex(
+        editor.CompositeAudioClip([
+            editor.AudioFileClip(music)
+            .cutout(0, randint(
+                1, 
+                int(music_duration - full_question_duration * question_count)
+            ))
+            .set_end(full_question_duration * question_count)
+        ]),
+        0.6
+    )
 
     clips = []
 
@@ -55,16 +70,16 @@ def produce_short(
                 size=(1080, None),
                 font=font
             )
-            .set_position(("center", 0.1), relative=True)
-            .set_start(question_index * 13.5)
-            .set_duration(10)
+            .set_position(("center", 0.03), relative=True)
+            .set_start(question_index * full_question_duration)
+            .set_duration(clip_durations["question"])
         )
         clips.append(question_text)
 
         answer_texts = [
             (
                 editor.TextClip(
-                    f"{list('ABCD')[i]} - {question["answers"][i]}", 
+                    f"{list('ABCD')[i]} - {question['answers'][i]}", 
                     fontsize=90, 
                     color="white", 
                     stroke_color="black", 
@@ -73,9 +88,9 @@ def produce_short(
                     size=(1080, None),
                     font=font
                 )
-                .set_position(("center", 0.3 + (i / 7)), relative=True)
-                .set_start(question_index * 13.5)
-                .set_duration(10)
+                .set_position(("center", 0.35 + (i / 7)), relative=True)
+                .set_start(question_index * full_question_duration)
+                .set_duration(clip_durations["question"])
             ) for i in range(len(question["answers"]))
         ]
         clips += answer_texts
@@ -83,7 +98,7 @@ def produce_short(
         countdown_texts = [
             (
                 editor.TextClip(
-                    str(10 - i), 
+                    str(clip_durations["question"] - i), 
                     fontsize=120, 
                     color="white", 
                     stroke_color="black", 
@@ -92,10 +107,10 @@ def produce_short(
                     size=(1080, None),
                     font=font
                 )
-                .set_start(question_index * 13.5 + i)
+                .set_start(question_index * full_question_duration + i)
                 .set_duration(1)
                 .set_position(("center", 0.87), relative=True)
-            ) for i in range(10)
+            ) for i in range(clip_durations["question"])
         ]
         clips += countdown_texts
 
@@ -110,13 +125,13 @@ def produce_short(
                 size=(1080, None),
                 font=font
             )
-            .set_start(question_index * 13.5 + 10)
-            .set_duration(3.5)
+            .set_start(question_index * full_question_duration + clip_durations["question"])
+            .set_duration(clip_durations["answer"])
             .set_position("center")
         )
         clips.append(correct_answer_text)
 
-    result = (
+    result: editor.CompositeVideoClip = (
         editor.CompositeVideoClip(
             [
                 background,
@@ -129,9 +144,10 @@ def produce_short(
 
     result.write_videofile(
         output, 
-        fps=24, 
+        fps=10, 
         audio_codec="aac",
-        threads=4
+        threads=4,
+        temp_audiofile="out/TEMP_trivia.mp4"
     )
 
 if __name__ == "__main__":

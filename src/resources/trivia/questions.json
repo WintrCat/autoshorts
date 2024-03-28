@@ -181,26 +181,6 @@
             "correct": 1
         },
         {
-            "title": "The cobras most recognizable feature is its hood, a flap of skin and muscle behind the head, believed to serve this purpose.",
-            "answers": [
-                "Balance control",
-                "Heat collection from sun rays",
-                "Camouflage",
-                "More threatening appearance"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "The Cobra is at the top of the food chain, with only two main predators -- one is man and the other is this animal.",
-            "answers": [
-                "Jackal",
-                "Mongoose",
-                "Lynx",
-                "Eagle"
-            ],
-            "correct": 1
-        },
-        {
             "title": "This is where the Cobras ribs are situated.",
             "answers": [
                 "Behind its head",
@@ -297,106 +277,12 @@
             "correct": 1
         },
         {
-            "title": "This endangered turtle is the biggest of all living turtles, reaching a length of over 2.7 m (8.8 ft) and weight of 900 kg (2,000 lb).",
-            "answers": [
-                "Leatherback Sea Turtle",
-                "Kemps Ridley Turtle",
-                "Hawksbill Sea Turtle",
-                "Mesoamerican River Turtle"
-            ],
-            "correct": 0
-        },
-        {
             "title": "Name the rarest and most endangered of all wolves.",
             "answers": [
                 "Red Wolf",
                 "Ethiopian Wolf",
                 "Black-backed Wolf",
                 "Gray Wolf"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "The endangered Komodo dragon is the largest living lizard in the world, growing to an average length of 2-3 meters (10 feet).",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "This species of great apes with long arms and reddish hair suffer habitat destruction due to logging, mining and forest fires.",
-            "answers": [
-                "Gorilla",
-                "Baboons",
-                "Orangutan",
-                "Chimpanzee"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "What is the natural habitat of the snows leopard, that was hunted down for its beautiful fur, as a result of which its population went down to 1,000 animals in the 1960s?",
-            "answers": [
-                "North America",
-                "Central Asia and North America",
-                "Central Asia",
-                "Europe and North America"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "The Asian Elephant, the only living species of the genus Elephas, is the bigger relative of the African Elephant.",
-            "answers": [
-                "True",
-                "False"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "This freshwater mammal, found only in the Yangtze River, is the most endangered (even possibly extinct) cetacean and one of the most endangered species in the world.",
-            "answers": [
-                "Ganges River Dolphin",
-                "Chinese River Dolphin",
-                "La Plata Dolphin",
-                "Amazon River Dolphin"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "This small nocturnal animal, whose natural habitat are the deserts of Northern Africa, is known to jump not only for hunting or protection, but also for pleasure.",
-            "answers": [
-                "Cape Fox",
-                "Red Fox",
-                "Bengal Fox",
-                "Fennec"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "Jack jumper ants, yellowish-orange carnivorous ants named after their characteristic jumpy motions, can be found only on which continent?",
-            "answers": [
-                "North America",
-                "Australia",
-                "Africa",
-                "Asia"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "This small, graceful member of the antelope family is an extraordinary jumper - while leaping, it touches the rocky terrain of its South African habitats only with the tip of its hooves, resembling a dance.",
-            "answers": [
-                "Oribi",
-                "Roan Antelope",
-                "Scimitar Oryx",
-                "Klipspringer"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "Although the jumping viper, a chiefly nocturnal snake, is one of the most powerful jumpers of the snake family, capable of rising up to 1 meter (3 feet) during a strike, its poison is not lethal to humans.",
-            "answers": [
-                "False",
-                "True"
             ],
             "correct": 0
         },
@@ -721,16 +607,6 @@
             "correct": 1
         },
         {
-            "title": "Cats twitch the tips of their tails slightly when hunting or when angry, while stronger twitching indicates what?",
-            "answers": [
-                "Stress",
-                "Displeasure",
-                "Boredom",
-                "Playfulness"
-            ],
-            "correct": 1
-        },
-        {
             "title": "If a cat pushes its face against your head, this means what?",
             "answers": [
                 "Impatience",
@@ -833,16 +709,6 @@
                 "They count the teeth in the fishs lower lip."
             ],
             "correct": 2
-        },
-        {
-            "title": "Pound for pound, humans are not the strongest animals. What is considered the strongest species, pound for pound?",
-            "answers": [
-                "The Hercules beetle",
-                "The leaf-cutting ant",
-                "The red ant",
-                "The atlas roach"
-            ],
-            "correct": 0
         },
         {
             "title": "Human beings have 23 pairs of  chromosomes. Which animal has the most chromosomes?",
@@ -963,16 +829,6 @@
                 "True"
             ],
             "correct": 1
-        },
-        {
-            "title": "Despite the myth that Chihuahuas were descendants of the royal dog of the Aztecs, it is also believed that Spanish trade merchants brought Chihuahuas to which of these countries?",
-            "answers": [
-                "Venezuela",
-                "United States",
-                "Brazil",
-                "Mexico"
-            ],
-            "correct": 3
         },
         {
             "title": "What maximum height at the withers can Chihuahuas reach?",
@@ -1111,26 +967,6 @@
             "correct": 1
         },
         {
-            "title": "These creatures look like flowers as they grow attached to rocks. Their tentacles open like fleshy petals and contract whenever danger is near.",
-            "answers": [
-                "Kelp",
-                "Jellyfish",
-                "Sponges",
-                "Sea Anemones"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "This sea animal, widely considered the most valuable shellfish, is common in shallow, warmer waters of all oceans.",
-            "answers": [
-                "Oyster",
-                "Shrimp",
-                "Scallop",
-                "Lobster"
-            ],
-            "correct": 0
-        },
-        {
             "title": "This crab is not really a crab, but an arthropod. Its closest relative is the spider.",
             "answers": [
                 "Fiddler Crab",
@@ -1139,16 +975,6 @@
                 "Rock Crab"
             ],
             "correct": 1
-        },
-        {
-            "title": "These worms are not in fact worms, but bivalves. They enter wood as larvae, where they remain and grow, burrowing through the wood.",
-            "answers": [
-                "Sea Mice",
-                "Ribbon Worms",
-                "Lugworms",
-                "Shipworms"
-            ],
-            "correct": 3
         },
         {
             "title": "Squid and octopus are mollusks.",
@@ -1173,16 +999,6 @@
                 "Star Fish",
                 "Scallop",
                 "Mussel"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "The red kangaroo appears on the Coat of Arms of Australia together with what other endemic Australian animal?",
-            "answers": [
-                "Emu",
-                "Platypus",
-                "Dingo",
-                "Koala"
             ],
             "correct": 0
         },
@@ -1277,16 +1093,6 @@
             "correct": 3
         },
         {
-            "title": "Which lizard can squirt blood from the corners of its eyes in order to confuse and drive back its enemies?",
-            "answers": [
-                "Anole",
-                "Gila monster",
-                "Horned lizard",
-                "Komodo dragon"
-            ],
-            "correct": 2
-        },
-        {
             "title": "The venomous lizard Gila monster was named after what?",
             "answers": [
                 "The Gila River basin",
@@ -1305,16 +1111,6 @@
                 "Madagascar"
             ],
             "correct": 1
-        },
-        {
-            "title": "Which term refers to the self-defense mechanism which allows lizards to break off their tails when captured?",
-            "answers": [
-                "Apotemnophilia",
-                "Autonomy",
-                "Autotomy",
-                "Autism"
-            ],
-            "correct": 2
         },
         {
             "title": "Which of these statements about geckos is true?",
@@ -1701,14 +1497,6 @@
             "correct": 3
         },
         {
-            "title": "Goldfish are good parents. They nurse and protect their young until they grow up enough to defend themselves.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 0
-        },
-        {
             "title": "This bird is the fastest animal on the planet in its hunting method, the stoop.",
             "answers": [
                 "Bald Eagle",
@@ -1733,16 +1521,6 @@
                 "False"
             ],
             "correct": 1
-        },
-        {
-            "title": "These raptors are known for their unusually social behavior. They even hunt in groups while the majority of raptors are solitary hunters.",
-            "answers": [
-                "Golden Eagle",
-                "Turkey Vulture",
-                "Spotted Owl",
-                "Harris Hawk"
-            ],
-            "correct": 3
         },
         {
             "title": "This animal is the largest of the deer family and can be found in the northern parts of North America.",
@@ -2061,16 +1839,6 @@
             "correct": 0
         },
         {
-            "title": "Most lions only survive in Africa. But a population of the much endangered Asiatic lion lives in India. How many estimated lions live in India as of 2007?",
-            "answers": [
-                "300",
-                "550",
-                "1,500",
-                "3,000"
-            ],
-            "correct": 0
-        },
-        {
             "title": "What is the average maximal speed a lion can reach?",
             "answers": [
                 "35 mph / 56 km/h",
@@ -2259,24 +2027,6 @@
             "correct": 1
         },
         {
-            "title": "According to Guinness Book of World Records, the heaviest wild bear was caught in 1960 and weighed 1,960 lbs (890 kg). What was its length?",
-            "answers": [
-                "Over 11 feet (3,40 m) tall",
-                "Over 12 feet (3,70 m) tall",
-                "Over 9 feet (2,70 m) tall",
-                "Over 10 feet (3 m) tall"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "According to statistics from the past 3 decades of the 20th century, there is a significant drop in polar bears’ size.",
-            "answers": [
-                "True",
-                "False"
-            ],
-            "correct": 0
-        },
-        {
             "title": "A polar bear is used as the marketing icon for which of these popular products?",
             "answers": [
                 "Maytag Freezers",
@@ -2449,14 +2199,6 @@
             "correct": 3
         },
         {
-            "title": "According to data from the year 2001, crocodiles were the second leading cause of animal related death worldwide, second to venomous snakes.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 0
-        },
-        {
             "title": "What is the average incubation period of crocodile eggs?",
             "answers": [
                 "50 days",
@@ -2477,14 +2219,6 @@
             "correct": 2
         },
         {
-            "title": "In Europe, the European Beaver (Castor fiber) was almost wiped out. It was driven to near extinction because of its fur and its scent gland that was used for medicinal purposes.",
-            "answers": [
-                "True",
-                "False"
-            ],
-            "correct": 0
-        },
-        {
             "title": "A beaver will build a dam even in dried up waterways if a recording of rushing water is played.",
             "answers": [
                 "False",
@@ -2503,14 +2237,6 @@
             "correct": 1
         },
         {
-            "title": "In the 17th century a ban was placed on eating meat during lent but the beaver meat was not included in that ban.",
-            "answers": [
-                "True",
-                "False"
-            ],
-            "correct": 0
-        },
-        {
             "title": "What is the gestation period of a beaver?",
             "answers": [
                 "2 months",
@@ -2527,16 +2253,6 @@
                 "No"
             ],
             "correct": 1
-        },
-        {
-            "title": "Butterflies need the warmth of the sun in order to fly. They cannot possibly fly if the temperature is below this.",
-            "answers": [
-                "60 F (16 C)",
-                "80 F (27 C)",
-                "70 F (21 C)",
-                "50 F (10 C)"
-            ],
-            "correct": 3
         },
         {
             "title": "You can kill a butterfly if you hold its wings.",
@@ -2781,14 +2497,6 @@
             "correct": 0
         },
         {
-            "title": "One of the biggest threats to earthworm survival in the UK is the New Zealand Roundworm which feeds on earthworms.",
-            "answers": [
-                "True",
-                "False"
-            ],
-            "correct": 1
-        },
-        {
             "title": "How many million of earthworms were exported from Canada and sold worldwide in 1980?",
             "answers": [
                 "225 million",
@@ -2943,14 +2651,6 @@
             "correct": 1
         },
         {
-            "title": "Should you feed a small dog, such as a miniature poodle, the same amount of food you should a large dog, for example a great dane?",
-            "answers": [
-                "No",
-                "Yes"
-            ],
-            "correct": 0
-        },
-        {
             "title": "A water bowl should be kept within easy access for your dog at all times.",
             "answers": [
                 "True",
@@ -2993,16 +2693,6 @@
                 "True"
             ],
             "correct": 0
-        },
-        {
-            "title": "A dog should never be left with a child under this age because the child may injure the dog or him/herself.",
-            "answers": [
-                "ten",
-                "seven",
-                "three",
-                "five"
-            ],
-            "correct": 3
         },
         {
             "title": "The dodos other name was The Robert Don.",
@@ -3057,14 +2747,6 @@
                 "1803"
             ],
             "correct": 2
-        },
-        {
-            "title": "The dodo was able to grow so large and become flightless because of the lack of natural predators on the island it inhabited.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 1
         },
         {
             "title": "Are there any complete dodo skeletons anywhere in the world?",
@@ -3127,16 +2809,6 @@
                 "False"
             ],
             "correct": 0
-        },
-        {
-            "title": "The ruler of the Mughal Empire Akbar the Great was very enamored with cheetahs and it is said he kept a stable of how many of these cats?",
-            "answers": [
-                "5,000",
-                "750",
-                "1,000",
-                "500"
-            ],
-            "correct": 2
         },
         {
             "title": "The gestation period of a cheetah is about 90-95 days.",
@@ -3367,16 +3039,6 @@
             "correct": 2
         },
         {
-            "title": "The largest ant colony is located on the Ishikari coast of Hokkaido. Approximately how many ants are there in this colony?",
-            "answers": [
-                "300,000,000",
-                "30,000,000",
-                "700,000,000",
-                "1,500,000"
-            ],
-            "correct": 0
-        },
-        {
             "title": "What are the three basic parts of an ants body?",
             "answers": [
                 "Antennae, abdomen, thoraces",
@@ -3443,16 +3105,6 @@
                 "Ants are sometimes put into Thai salads."
             ],
             "correct": 0
-        },
-        {
-            "title": "Warner Brothers highest grossing film of 1954 was about enormous ants that threatened a small town in the USA. What was the title of this movie?",
-            "answers": [
-                "Ants!",
-                "Them!",
-                "Invasion",
-                "Invaders"
-            ],
-            "correct": 1
         },
         {
             "title": "How many species of flamingo are native to the Americas?",
@@ -3527,14 +3179,6 @@
                 "80s"
             ],
             "correct": 1
-        },
-        {
-            "title": "Once the dingo was introduced to Australia, the Thylacine population decreased steadily until the only viable populations were on the Island of Tasmania.",
-            "answers": [
-                "True",
-                "False"
-            ],
-            "correct": 0
         },
         {
             "title": "Are Thylacines marsupials?",
@@ -3701,86 +3345,6 @@
             "correct": 0
         },
         {
-            "title": "Although not all bear subspecies are vicious, there is a tendency for increase in bear attacks due to this factor.",
-            "answers": [
-                "Destruction of bears natural habitat",
-                "Pollution",
-                "Genetical mutation of bears",
-                "Hunting"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "Despite sharks’ bad reputation thanks to movies out of 300 species of sharks only this much are known to have attacked and killed a man.",
-            "answers": [
-                "4",
-                "10",
-                "2",
-                "11"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "Although jellyfish may seem to you calm and harmless, an encounter with some species may leave you in excruciating pain and even kill you in minutes. Which of the following species of jellyfish is venomous enough to kill a man?",
-            "answers": [
-                "Sea nettle",
-                "Mastigias",
-                "Box jellyfish",
-                "Medusa Jellyfish"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "We’ve seen these animals as friendly and approachable but the truth is that they’re unpredictable. What is the average number of fatalities a year elephants cause?",
-            "answers": [
-                "150-200",
-                "20-40",
-                "300-500",
-                "1000-1500"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "Hippopotamuses may seem slow, lazy and bulky but in fact are one of the most dangerous African animals. Which of the following should you avoid in order to prevent a hippopotamus attack?",
-            "answers": [
-                "Standing between the hippopotamus and its calf",
-                "All of these",
-                "Surprising the hippopotamus",
-                "Blocking the hippopotamus’ way"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "Crocodiles like to stay motionless in water and wait for the perfect time to strike. These powerful prehistoric creatures annually give what estimated number of fatalities?",
-            "answers": [
-                "1000-1500",
-                "50-100",
-                "100-200",
-                "600-800"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "If you happen to be near a big cat (e.g. lion, tiger, lynx) that seems to be about to attack you, which of the following shouldn’t you do in any case?",
-            "answers": [
-                "Scream and shout",
-                "Try to look larger than you really are",
-                "Turn back and run",
-                "Stare at its eyes"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "Although only a small percent of scorpions are venomous to people, 800 to 2000 human deaths each year are caused by scorpions. During which part of the day are these creatures most active?",
-            "answers": [
-                "Morning",
-                "All day",
-                "Noon",
-                "Night"
-            ],
-            "correct": 3
-        },
-        {
             "title": "Which of the following statements about snakes is not true?",
             "answers": [
                 "Snakes can strike upto half their length.",
@@ -3789,16 +3353,6 @@
                 "Snakes will attack almost always they sense the presence of a human."
             ],
             "correct": 3
-        },
-        {
-            "title": "Surprisingly, the number one killer among animals with about 2-3 million human fatalities a year is a tiny insect. Which is it?",
-            "answers": [
-                "Bee",
-                "Mosquito",
-                "Tsetse fly",
-                "Wasp"
-            ],
-            "correct": 1
         },
         {
             "title": "How many species of rhinoceros survive in the wild?",
@@ -3819,24 +3373,6 @@
                 "Sumatran Rhino"
             ],
             "correct": 0
-        },
-        {
-            "title": "The deaths caused by rhinos in India and Nepal exceed the total number of deaths caused by leopards and tigers.",
-            "answers": [
-                "True",
-                "False"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "Throughout the period from the 1970s to the end of the 20th century, the rhinoceros numbers declined by approximately what percentage?",
-            "answers": [
-                "50%",
-                "90%",
-                "60%",
-                "75%"
-            ],
-            "correct": 1
         },
         {
             "title": "In Asian folklore the rhinoceros would stomp out fires in the jungle.",
@@ -4155,14 +3691,6 @@
             "correct": 0
         },
         {
-            "title": "Pigeons are only one of seven species to pass the mirror test, which tests if animals recognize their own reflected image.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 1
-        },
-        {
             "title": "What is the common name for the pigeon that we see in the city streets and in our backyards?",
             "answers": [
                 "Mourning Dove",
@@ -4183,52 +3711,12 @@
             "correct": 3
         },
         {
-            "title": "The word dinosaur is a combination of two Greek words. One word  means lizard. What does the other word mean?",
-            "answers": [
-                "Terrifying",
-                "Herbivorous",
-                "Godlike",
-                "Beautiful"
-            ],
-            "correct": 0
-        },
-        {
             "title": "Dinosaurs once roamed Colorado and Wyoming.",
             "answers": [
                 "True",
                 "False"
             ],
             "correct": 0
-        },
-        {
-            "title": "Name the theropod dinosaur with a long head, flat snout, and large sickle-shaped claw on the second toe of each foot.",
-            "answers": [
-                "Stegosaurus",
-                "Velociraptor",
-                "Tyrannosaur",
-                "Raptor"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "Name the prehistoric reptile of the late Jurassic and Cretaceous period with featherless wing membrane.  It is believed this reptile flew.",
-            "answers": [
-                "Bronchialsaurus",
-                "Accipitridae Raptor",
-                "dactylic raptor",
-                "Pterodactyl"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "The name brontosaurus is derived from the Greek words sauros, which means lizard, combined with another word. What does the word bronte mean?",
-            "answers": [
-                "Large",
-                "Long neck",
-                "Poetic",
-                "Thunder or roar"
-            ],
-            "correct": 3
         },
         {
             "title": "The species Tyrannosaurus Rex  was herbivorous.",
@@ -4269,16 +3757,6 @@
             "correct": 3
         },
         {
-            "title": "Which one of these movies tells the story of Littlefoot, an Apatosaurus in search of the Great Valley where dinosaurs can live in peace?",
-            "answers": [
-                "Walking With Dinosaurs",
-                "Jurassic Park",
-                "King Kong",
-                "The Land Before Time"
-            ],
-            "correct": 3
-        },
-        {
             "title": "Which of these books about prehistoric animals and dinosaurs was written by Arthur Conan Doyle?",
             "answers": [
                 "Dinosaur Planet",
@@ -4297,16 +3775,6 @@
                 "Alan Reed"
             ],
             "correct": 1
-        },
-        {
-            "title": "In the book Jurassic Park, the fictional island Isla Nublar, where recreated dinosaur species live, is situated in which part of the world?",
-            "answers": [
-                "Near Costa Rica",
-                "Near Japan",
-                "Near Chile",
-                "Near Spain"
-            ],
-            "correct": 0
         },
         {
             "title": "The BBC series Walking with Dinosaurs, which won three Emmy Awards, consisted of how many parts?",
@@ -4339,16 +3807,6 @@
             "correct": 0
         },
         {
-            "title": "What is Dinotopia, the fictional place where humans and dinosaurs live together in James Gurneys books and Hallmarks mini series?",
-            "answers": [
-                "A planet",
-                "A hidden island",
-                "A mountain",
-                "A large volcano"
-            ],
-            "correct": 1
-        },
-        {
             "title": "Which band recorded a song called Brontosaurus which includes the following verse:",
             "answers": [
                 "he seemed to lose control",
@@ -4370,16 +3828,6 @@
             "correct": 0
         },
         {
-            "title": "What is the meaning of the term Triceratops, referring to a dinosaur genus discovered in 1888 in North America?",
-            "answers": [
-                "Three heads",
-                "Beast with three tails",
-                "Three-tongued beast",
-                "Three horns on the face"
-            ],
-            "correct": 3
-        },
-        {
             "title": "Which one of these dinosaurs was bigger than a dog?",
             "answers": [
                 "Saltopus",
@@ -4396,16 +3844,6 @@
                 "A superorder",
                 "A genus",
                 "A kingdom"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "Fossils of a Velociraptor attacking a Protoceratops, proving that dinosaurs attacked and ate each other, were discovered in which part of the world in 1971?",
-            "answers": [
-                "Death Valley",
-                "The Gobi Desert",
-                "The Balkans",
-                "Bernissart, Belgium"
             ],
             "correct": 1
         },
@@ -4448,16 +3886,6 @@
                 "2"
             ],
             "correct": 3
-        },
-        {
-            "title": "The first evidence of herding behaviour among dinosaurs was discovered in 1878 in which part of the world?",
-            "answers": [
-                "USA",
-                "Argentina",
-                "Belgium",
-                "China"
-            ],
-            "correct": 2
         },
         {
             "title": "Which one of these statements about the Seismosaurus, the Earth-shaking lizard, is wrong?",
@@ -4506,24 +3934,6 @@
             "correct": 1
         },
         {
-            "title": "Elephants express joy by spinning in circles, trumpeting, roaring, screaming, urinating, and flapping their ears. In which of these cases will an elephant not act this way?",
-            "answers": [
-                "when meeting a friend (elephant or human)",
-                "when playing games",
-                "after the death of an elderly elephant",
-                "after the birth of a new baby elephant"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "Elephants sometimes have stillborn births, but are not bothered by the loss since the baby was never alive.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 0
-        },
-        {
             "title": "Mammoths are members of the elephant family.",
             "answers": [
                 "False",
@@ -4558,36 +3968,6 @@
                 "True"
             ],
             "correct": 1
-        },
-        {
-            "title": "Elephants intertwine their trunks with the trunks of other elephants, much like a handshake. What does an elephant not do with its trunk?",
-            "answers": [
-                "caress a baby elephant",
-                "drink through it like through a straw",
-                "place food in their mouth",
-                "grab enemies and fling them away"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "Elephants spend 16 hours a day collecting and eating food, an average of 400 lbs of food a day. But their bodies do not digest 100% of the food. How much of the food does the elephants body digest?",
-            "answers": [
-                "40%",
-                "80%",
-                "60%",
-                "20%"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "It has been reported that in the period 1992-2008, Ringling Bros. and Barnum  Bailey Circus had at least this many elephant deaths caused by abuse and neglect.",
-            "answers": [
-                "24",
-                "0",
-                "1",
-                "7"
-            ],
-            "correct": 0
         },
         {
             "title": "An elephants brain is half the size of the human brain.",
@@ -4660,16 +4040,6 @@
                 "False"
             ],
             "correct": 1
-        },
-        {
-            "title": "This reef, that extends along the east coast of Australia, is home to countless animals and is considered one of the wonders of the natural world.",
-            "answers": [
-                "Great Barrier Reef",
-                "Division Reef",
-                "Australia Reef",
-                "Surfer Reef"
-            ],
-            "correct": 0
         },
         {
             "title": "The female of this species is sometimes called a Blue Flyer, because of its bluish coloration.",
@@ -4804,14 +4174,6 @@
             "correct": 1
         },
         {
-            "title": "The proper spelling of this insect’s name is preying mantis even though it is commonly referred to as praying mantis.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 0
-        },
-        {
             "title": "What does the word “mantis” mean?",
             "answers": [
                 "Savage insect",
@@ -4934,14 +4296,6 @@
                 "7,400 lbs. (3.3 tonnes)"
             ],
             "correct": 2
-        },
-        {
-            "title": "The spikes on the tail of a Stegosaurus are called “thagomizers” and are a reference to the Gary Larsons comic strip Far Side.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 1
         },
         {
             "title": "What was the average height of a stegosaurus?",
@@ -5158,26 +4512,6 @@
             "correct": 3
         },
         {
-            "title": "This dog breed, which originated in Mongolia and China, has very thick fluffy fur and a blue-black tongue.",
-            "answers": [
-                "Chow Chow",
-                "Jonangi",
-                "Kai Ken",
-                "Hokkaido"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "The representatives of this dog breed are small, have long white silky fur and are also known as Roman Ladies Dogs.",
-            "answers": [
-                "Maltese",
-                "Norrbottenspets",
-                "Phalene",
-                "Mudi"
-            ],
-            "correct": 0
-        },
-        {
             "title": "What common name does the dog breed New Guinea Highland Dog have?",
             "answers": [
                 "Singer",
@@ -5226,32 +4560,12 @@
             "correct": 1
         },
         {
-            "title": "This extremely large and tall German dog breed has a very short shiny coat and strong muscular body with a majestic posture.",
-            "answers": [
-                "German Mastiff",
-                "Boarhound",
-                "Great Dane",
-                "All of these"
-            ],
-            "correct": 3
-        },
-        {
             "title": "In which European country did the Dalmatian dog breed originate?",
             "answers": [
                 "Croatia",
                 "Netherlands",
                 "Italy",
                 "Denmark"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "This dog breed, developed in England, has an egg-shaped head, small eyes, and very strong muscular body with smooth short fur and short legs.",
-            "answers": [
-                "Bull Terrier",
-                "Cairn Terrier",
-                "English Shepherd",
-                "Wire Fox Terrier"
             ],
             "correct": 0
         },
@@ -5388,14 +4702,6 @@
             "correct": 1
         },
         {
-            "title": "When a box turtle is taken out of the wild, it can spend years and sometimes its entire life looking for its home.",
-            "answers": [
-                "True",
-                "False"
-            ],
-            "correct": 0
-        },
-        {
             "title": "Male box turtles tend to be larger than females.",
             "answers": [
                 "True",
@@ -5438,16 +4744,6 @@
                 "black"
             ],
             "correct": 2
-        },
-        {
-            "title": "What city is known as the White Squirrel Capital of the World, since it is home to the largest colony of albino squirrels?",
-            "answers": [
-                "Marionville, Missouri",
-                "Olney, Illinois",
-                "Columbus, Ohio",
-                "Kenton, Tennessee"
-            ],
-            "correct": 1
         },
         {
             "title": "Whiteflies generally feed on what?",
@@ -5510,16 +4806,6 @@
             "correct": 2
         },
         {
-            "title": "The representatives of the Old Danish Pointer breed are white, with markings of this other color on their coat.",
-            "answers": [
-                "Grey",
-                "Brown",
-                "All of these",
-                "Black"
-            ],
-            "correct": 1
-        },
-        {
             "title": "Which of these dog breeds originated in Hungary?",
             "answers": [
                 "Pumi",
@@ -5560,16 +4846,6 @@
             "correct": 1
         },
         {
-            "title": "This dog breed, considered one of the first sighthound dog breeds, has very long fur and is quite tall, with long legs and ears.",
-            "answers": [
-                "Canadian Pointer",
-                "Bolognese",
-                "Afghan Hound",
-                "Airedale Terrier"
-            ],
-            "correct": 2
-        },
-        {
             "title": "In what northern country did the Siberian Husky dog breed originate?",
             "answers": [
                 "Norway",
@@ -5588,16 +4864,6 @@
                 "Angel"
             ],
             "correct": 0
-        },
-        {
-            "title": "This dog, which was once used as a personal defense dog, police dog and war dog, is often mistakenly believed to be very aggressive.",
-            "answers": [
-                "Field Spaniel",
-                "Doberman Pinscher",
-                "Elo",
-                "Finnish Spitz"
-            ],
-            "correct": 1
         },
         {
             "title": "This dog breed was developed as a gun dog in Canada?",
@@ -5798,16 +5064,6 @@
             "correct": 0
         },
         {
-            "title": "The Brazilian wandering spiders are included in Guinness World Records 2007 as the worlds most venomous spiders. How do they inject their venom?",
-            "answers": [
-                "By stinging",
-                "By biting",
-                "All of these",
-                "By urticating hairs"
-            ],
-            "correct": 1
-        },
-        {
             "title": "What creature is considered the most venomous on the planet?",
             "answers": [
                 "Fat-tailed scorpion",
@@ -5816,26 +5072,6 @@
                 "Cone snail"
             ],
             "correct": 2
-        },
-        {
-            "title": "The stonefish is an extremely venomous type of fish that lives in the coastal regions of Indo-Pacific oceans. How does it inject its venom?",
-            "answers": [
-                "With its sharp teeth",
-                "With its tail fin",
-                "With its pectoral fin",
-                "With its dorsal fin"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "The name of cobras, which are very venomous, comes from the Portuguese cobra de capello. What does this mean?",
-            "answers": [
-                "Snake with hood",
-                "Poisonous hat",
-                "Poisonous nose",
-                "Snake with nose"
-            ],
-            "correct": 0
         },
         {
             "title": "Venomous mammals do exist, although they are very rare. Which of these mammals is venomous?",
@@ -5866,16 +5102,6 @@
                 "Through stinging"
             ],
             "correct": 3
-        },
-        {
-            "title": "What kind of animal is the venomous Gila monster that is indigenous to southwestern United States and northern Mexico?",
-            "answers": [
-                "Lizard",
-                "Invertebrate",
-                "Frog",
-                "Mammal"
-            ],
-            "correct": 0
         },
         {
             "title": "What phylum do jellyfish belong to?",
@@ -6196,16 +5422,6 @@
             "correct": 1
         },
         {
-            "title": "What is the largest wolf species on the planet as well as the largest wild representative of the Canidae family?",
-            "answers": [
-                "Grey wolf",
-                "Polar wolf",
-                "Black wolf",
-                "Red wolf"
-            ],
-            "correct": 0
-        },
-        {
             "title": "Wolf pups are usually born with irises of this color, which changes with time.",
             "answers": [
                 "Black",
@@ -6384,26 +5600,6 @@
             "correct": 3
         },
         {
-            "title": "The name Lumbriculus variegatus, or blackworm, refers to a few worm species. In what way do they reproduce?",
-            "answers": [
-                "By parthenogenesis",
-                "With eggs",
-                "All of these",
-                "By regeneration"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "Which of these statements is true about the Black dog, a ghost-like creature popular in the folklores of the British Isles?",
-            "answers": [
-                "It is believed to appear at night.",
-                "It is associated with the Devil.",
-                "It is considered a portent of death.",
-                "All of these"
-            ],
-            "correct": 3
-        },
-        {
             "title": "Which of these statements is true about the Black garden ant?",
             "answers": [
                 "Each colony has only one queen.",
@@ -6490,36 +5686,6 @@
                 "Killer Whale",
                 "Blackfish",
                 "Seawolf"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "Dolphins are considered some of the most intelligent animals on the planet. How are they classified according to their diet?",
-            "answers": [
-                "They are specialized eaters.",
-                "They are carnivores.",
-                "They are herbivores.",
-                "They are omnivores."
-            ],
-            "correct": 1
-        },
-        {
-            "title": "This marine mammal is known as the pilot whale, but it is not actually a whale. What type of animal is it?",
-            "answers": [
-                "Walrus",
-                "Seal",
-                "Dolphin",
-                "Otter"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "Which of these animals are among the many marine mammals that use songs for the purposes of communication?",
-            "answers": [
-                "All of these",
-                "Blue Whale",
-                "Humpback whale",
-                "Beluga"
             ],
             "correct": 0
         },
@@ -6628,14 +5794,6 @@
             "correct": 3
         },
         {
-            "title": "The two types of Chinese Crested dogs are born in separate litters, they cannot come from the same litter.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 0
-        },
-        {
             "title": "Which breed group does the Chinese Crested dog belong to?",
             "answers": [
                 "Sporting",
@@ -6678,16 +5836,6 @@
                 "True"
             ],
             "correct": 1
-        },
-        {
-            "title": "The origin of the Chinese Crested dog is unknown, but according to some sources it may have come from which of these places?",
-            "answers": [
-                "Canada and USA",
-                "Thailand and Egypt",
-                "Mexico and Africa",
-                "Japan and China"
-            ],
-            "correct": 2
         },
         {
             "title": "Chinese Crested dogs are very suspicious of strangers and can make very good watchdogs.",
@@ -6738,16 +5886,6 @@
             "correct": 0
         },
         {
-            "title": "Which of these names refers to the Crab-eating Fox, a medium-sized fox found in the central part of South America?",
-            "answers": [
-                "Forest Fox",
-                "Wood Fox",
-                "Common Fox",
-                "All of these"
-            ],
-            "correct": 3
-        },
-        {
             "title": "What fox species is considered to be the smallest on the planet?",
             "answers": [
                 "Short-Tailed Fox",
@@ -6766,16 +5904,6 @@
                 "Red eyes"
             ],
             "correct": 2
-        },
-        {
-            "title": "Which of these names belongs to the fox species that is the second smallest fox species in the world, slightly smaller than a domestic cat?",
-            "answers": [
-                "Short-Tailed Fox",
-                "All of these",
-                "Coast Fox",
-                "California Channel Island Fox"
-            ],
-            "correct": 1
         },
         {
             "title": "According to Chinese mythology, what shape do fox spirits known as huli jing take in the real world?",
@@ -6808,92 +5936,12 @@
             "correct": 1
         },
         {
-            "title": "Chipmunks are small squirrel-like rodents belonging to the genus Tamias. What does the Greek word tamias mean?",
-            "answers": [
-                "Storer",
-                "Nibbler",
-                "Squirrel",
-                "Stripes"
-            ],
-            "correct": 0
-        },
-        {
             "title": "What would some species of  porcupine consume in order to supply calcium ans salts?",
             "answers": [
                 "Nails",
                 "All of these",
                 "Tiny rocks",
                 "Bones"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "What defense tactic does the chinchilla use in order to escape from its predators, which include birds of prey, skunks, felines, snakes and canines?",
-            "answers": [
-                "Playing dead",
-                "Squeaking",
-                "Scratching",
-                "Spraying urine"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "What rodent, closely related to the chinchilla and guinea pig, is also known as the Brush-Tailed Rat and is native to Chile?",
-            "answers": [
-                "Gerbil",
-                "Degu",
-                "White-tailed Antelope Squirrel",
-                "Prairie dog"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "The Capybara is the largest rodent in the world. What is the meaning of its name, derived from a word of the Guaraní language?",
-            "answers": [
-                "Master of the grasses",
-                "River keeper",
-                "Rabbit pig",
-                "Water squirrel"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "The acouchis, small diurnal rodents found along riverbanks in the Amazon Rainforest, usually feed on this type of food.",
-            "answers": [
-                "Insects",
-                "Grass",
-                "Fruit",
-                "Nuts"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "Guinea pigs are very intelligent, highly social animals that use special vocalization to communicate. What does their whistling or wheeking sound express?",
-            "answers": [
-                "Excitement",
-                "Danger or pain",
-                "Discomfort",
-                "Warning"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "Groundhogs are mostly herbivorous rodents that sometimes eat animal matter. What kind of animals would they feed on?",
-            "answers": [
-                "Larvae",
-                "Grasshoppers",
-                "All of these",
-                "Snails"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "What kind of unique activity is characteristic of the African Pygmy Mouse, the smallest rodent in the world?",
-            "answers": [
-                "It sings at night.",
-                "It disguises its young using leaves.",
-                "It starts dancing when it feels threatened by a predator.",
-                "It piles up pebbles in front of its burrow."
             ],
             "correct": 3
         },
@@ -6958,16 +6006,6 @@
             "correct": 1
         },
         {
-            "title": "What is the term for the state of temporary hibernation that Hummingbirds enter when food is not available?",
-            "answers": [
-                "Hush",
-                "Stupor",
-                "Stillness",
-                "Torpor"
-            ],
-            "correct": 3
-        },
-        {
             "title": "What is the reason for Hummingbirds short life-span?",
             "answers": [
                 "Their fast metabolic rate",
@@ -6976,16 +6014,6 @@
                 "Their small size"
             ],
             "correct": 0
-        },
-        {
-            "title": "The usage of raw sugars, including brown sugar, is not recommended when preparing artificial nectar for Hummingbirds. Why?",
-            "answers": [
-                "All of these",
-                "Raw sugars contain iron.",
-                "Raw sugars contain zinc.",
-                "They contain harmful heavy metals."
-            ],
-            "correct": 1
         },
         {
             "title": "Aztecs are known for wearing hummingbird talismans which symbolize which of the following?",
@@ -7076,26 +6104,6 @@
                 "All of these"
             ],
             "correct": 3
-        },
-        {
-            "title": "What does the South American snake Lachesis muta, commonly known as South American bushmaster, do when it feels threatened?",
-            "answers": [
-                "It starts vibrating its tail.",
-                "It spreads its neck.",
-                "It hisses and dances.",
-                "All of these"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "Which of these statements is true about the capybara, the largest rodent on the planet, indigenous to South America?",
-            "answers": [
-                "Its front legs are a little longer than the rear legs.",
-                "None of these",
-                "It has 16 teeth.",
-                "It has a short tail."
-            ],
-            "correct": 1
         },
         {
             "title": "What type of mammal is the Culpeo?",
@@ -7356,16 +6364,6 @@
             "correct": 1
         },
         {
-            "title": "In May 2009 the Tasmanian devil was declared to be endangered because this disease had almost wiped out its population.",
-            "answers": [
-                "AIDS",
-                "Facial cancer",
-                "Kawasaki disease",
-                "Rabies"
-            ],
-            "correct": 1
-        },
-        {
             "title": "What is the name of the Tasmanian devil cartoon character from Looney Tunes by Warner Bros.?",
             "answers": [
                 "Taz",
@@ -7472,16 +6470,6 @@
             "correct": 2
         },
         {
-            "title": "Some small spider species, as well as the young of larger species, are known for floating in the wind. What is this activity commonly known as?",
-            "answers": [
-                "Skydiving",
-                "Jetting",
-                "Drifting",
-                "Ballooning"
-            ],
-            "correct": 3
-        },
-        {
             "title": "Which of these mollusks is able to glide over in air for up to 50 meters (164 feet)?",
             "answers": [
                 "Oyster",
@@ -7520,16 +6508,6 @@
                 "Chinese gliding frog"
             ],
             "correct": 3
-        },
-        {
-            "title": "Some mammals are able to glide and parachute, but bats are the only ones capable of flying.  What is the name of the membrane that forms the surface of their wings?",
-            "answers": [
-                "Reticulum",
-                "Patagium",
-                "Corticulum",
-                "Flagellum"
-            ],
-            "correct": 1
         },
         {
             "title": "In what geographical region can you find the Paradise Flying Snake, also called Paradise Tree Snake?",
@@ -7632,36 +6610,6 @@
             "correct": 3
         },
         {
-            "title": "In cetaceans, the species identification “rorqual” comes from the Norwegian word “rorhval” which means “furrow.” These furrows are obvious on all rorqual whales. Which of the following is not a rorqual whale?",
-            "answers": [
-                "Beluga whale",
-                "Sei whale",
-                "Bryde’s whale",
-                "Minke whale"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "Right and gray whales have been over-fished almost to extinction. Which of the following is a gray or right whale?",
-            "answers": [
-                "Bowhead whale",
-                "Blue whale",
-                "Sperm whale",
-                "Narwhal"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "Narwhals and belugas make up separate subspecies of cetaceans. However, taxonomists often include in it a dolphin which lives in Indo-Pacific waters. What is the name of this dolphin?",
-            "answers": [
-                "Irrawaddy dolphin",
-                "Bottlenose dolphin",
-                "Boto",
-                "Risso’s dolphin"
-            ],
-            "correct": 0
-        },
-        {
             "title": "Which whale expels a reddish-brown fluid when threatened, much like an octopus?",
             "answers": [
                 "Dwarf sperm whale",
@@ -7680,16 +6628,6 @@
                 "Blainville’s beaked whale"
             ],
             "correct": 1
-        },
-        {
-            "title": "The largest family of whales is the beaked whales (Ziphiidae). Most of the scarce information about this family has been found from dead specimens. Their teeth are the most distinctive aspect of these whales; most have only 2-4 oversized teeth. Which whale’s teeth erupt from bulges in the lower jaw?",
-            "answers": [
-                "Stejneger’s beaked whale",
-                "Longman’s beaked whale",
-                "Blainville’s beaked whale",
-                "Arnoux’s beaked whale"
-            ],
-            "correct": 2
         },
         {
             "title": "The family “delphinidae” include which kind of cetacean?",
@@ -7712,66 +6650,6 @@
             "correct": 1
         },
         {
-            "title": "These cetaceans live off the southern coast of South America and can be found up to 150 miles (240 km) up the Amazon River. They are colored pale blue with a white underside. What is their name?",
-            "answers": [
-                "Tuxici",
-                "Amazon dolphin",
-                "South American dolphin",
-                "Franciscana"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "Sometimes called the “hooked-finned” porpoise, this animal has a barely noticeable beak. It lives in the deep waters of the northern latitudes between North America and Asia, and is a very fast swimmer (up to 20 mph / 32 km/h). What is its name?",
-            "answers": [
-                "Dusky dolphin",
-                "Dall’s porpoise",
-                "Pacific white-sided dolphin",
-                "Pantropical dolphin"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "The representatives of this type of dolphins have very small eyes, making them virtually blind. They rely on echolocation to find food and swim in turbid waters. They include the baiji and boto. What are they called?",
-            "answers": [
-                "Oceanic dolphins",
-                "River dolphins",
-                "Muddy dolphins",
-                "Blind dolphins"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "This family of cetaceans has representatives like the vaquita, the harbor, and spectacled type. They are shy and stay away from boats; however, they are particularly susceptible to fishing lines, nets, and other pollution. Which is the family?",
-            "answers": [
-                "Pilot whales",
-                "River dolphins",
-                "Porpoises",
-                "Dolphins"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "This oceanic dolphin has distinctive yellow patches on its sides. It is mostly found in the northern latitudes of the Atlantic Ocean.",
-            "answers": [
-                "Atlantic white-sided dolphin",
-                "Hector’s dolphin",
-                "Atlantic yellow-sided dolphin",
-                "Common dolphin"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "This popular dolphin often herds fish onto the beach in order to eat the stranded fish. As a result, the teeth on one side (usually the right) are worn down due to eating sand as well as the fish. Which is this dolphin?",
-            "answers": [
-                "Stranded dolphin",
-                "Bottlenose dolphin",
-                "Right-sided dolphin",
-                "Spotted dolphin"
-            ],
-            "correct": 1
-        },
-        {
             "title": "Which of the following do orca NOT do with their food?",
             "answers": [
                 "Regurgitate it for their young",
@@ -7790,16 +6668,6 @@
                 "Etruscan Shrew"
             ],
             "correct": 2
-        },
-        {
-            "title": "The Microraptor, the smallest known non-avian dinosaur, inhabited this modern day area during the early Cretaceous Period 130-125.5 million years ago.",
-            "answers": [
-                "Madagascar",
-                "China",
-                "Australia",
-                "Canada"
-            ],
-            "correct": 1
         },
         {
             "title": "What kind of animal is the smallest known reptile on the planet?",
@@ -7872,16 +6740,6 @@
             "correct": 2
         },
         {
-            "title": "What bacterium is believed to be the smallest living organism that is capable to grow and reproduce independently?",
-            "answers": [
-                "Staphylococcus aureus",
-                "Escherichia coli",
-                "Carsonella ruddii",
-                "Mycoplasma genitalium"
-            ],
-            "correct": 3
-        },
-        {
             "title": "What does the diet of most penguin species primarily consist of?",
             "answers": [
                 "Krill",
@@ -7902,26 +6760,6 @@
             "correct": 0
         },
         {
-            "title": "There are various theories for the origin of the word penguin, such the Latin word pinguis, which means what?",
-            "answers": [
-                "Diver",
-                "Upright",
-                "Swimmer",
-                "Fat"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "What color is the crest on the head of the Southern Rockhopper Penguin, which is known for having red eyes?",
-            "answers": [
-                "Bright blue",
-                "Yellow",
-                "Red",
-                "Green and blue"
-            ],
-            "correct": 1
-        },
-        {
             "title": "Which of these penguin species is the closest relative of the Magellanic Penguin?",
             "answers": [
                 "African Penguin",
@@ -7930,16 +6768,6 @@
                 "Humboldt Penguin"
             ],
             "correct": 1
-        },
-        {
-            "title": "What is the common name of the Eudyptes schlegeli penguin species that have a white face and live in the waters surrounding Antarctica?",
-            "answers": [
-                "King Penguin",
-                "All of these",
-                "Emperor Penguin",
-                "Royal Penguin"
-            ],
-            "correct": 3
         },
         {
             "title": "The sound of what musical instrument does the call of the Macaroni Penguin resemble?",
@@ -8002,16 +6830,6 @@
             "correct": 0
         },
         {
-            "title": "What interesting physical feature does the Nicobar Bulbul, endemic to the Nicobar Islands of India, possess?",
-            "answers": [
-                "It has a bright red beak.",
-                "Its tail is very long and yellow.",
-                "Its eyes are purple.",
-                "It has a dark cap on its head."
-            ],
-            "correct": 3
-        },
-        {
             "title": "Which of these statements is not true about the Indian Elephant?",
             "answers": [
                 "It has a smaller trunk than the African Elephant.",
@@ -8066,14 +6884,6 @@
             "correct": 1
         },
         {
-            "title": "Turtles are cold-blooded, meaning their internal temperature varies according to their outside environment.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 1
-        },
-        {
             "title": "The largest turtles are aquatic.",
             "answers": [
                 "False",
@@ -8094,14 +6904,6 @@
             "answers": [
                 "False",
                 "True"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "The inner layer of the turtles shell contains 60 bones-- including parts of the turtles ribs and backbone.",
-            "answers": [
-                "True",
-                "False"
             ],
             "correct": 0
         },
@@ -8346,66 +7148,6 @@
             "correct": 1
         },
         {
-            "title": "What is the literal translation of the word lanigera in the name of the chinchilla species Chinchilla lanigera?",
-            "answers": [
-                "Long-tailed",
-                "Having long ears",
-                "Sleeping in straw",
-                "Wearing a woolen coat"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "This cat breed, developed by American breeder Ann Baker, is large and has blue eyes and soft fluffy coat with point coloration.",
-            "answers": [
-                "Ragdoll",
-                "LaPerm",
-                "Egyptian Mau",
-                "Savannah"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "This large cat breed, created in the United States, has rabbit-like fur of medium length, rectangular body, and a fatty pad in the lower abdomen.",
-            "answers": [
-                "Balinese",
-                "California Spangled Cat",
-                "Munchkin",
-                "Ragamuffin"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "This cat breed occurred naturally, most probably in Egypt. It has silky short fur with special ticked coloration.",
-            "answers": [
-                "Korat",
-                "Sphynx",
-                "Abyssinian",
-                "Burmilla"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "This very old cat breed, which occurred naturally in Turkey, has a slender body with medium length fur, usually white.",
-            "answers": [
-                "Ocicat",
-                "Cymric",
-                "Selkirk Rex",
-                "Turkish Angora"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "This cat breed, which appeared naturally in Thailand, has a slim body and short fur with point coloration.",
-            "answers": [
-                "Himalayan",
-                "Siamese",
-                "Korat",
-                "Burmese"
-            ],
-            "correct": 1
-        },
-        {
             "title": "This hairless cat breed originated in Russia.",
             "answers": [
                 "Don Sphynx",
@@ -8444,16 +7186,6 @@
                 "American Curl"
             ],
             "correct": 1
-        },
-        {
-            "title": "What cat breed, which originated in France, has thick waterproof grey fur, gold-colored eyes and large muscular body?",
-            "answers": [
-                "Chartreux",
-                "Chausie",
-                "Pixie-bob",
-                "LaPerm"
-            ],
-            "correct": 0
         },
         {
             "title": "To what geographic area is the ostrich native?",
@@ -8774,16 +7506,6 @@
             "correct": 1
         },
         {
-            "title": "For which of these animals is the following description true: The gestation period lasts 35–58 days. Smaller species have 5-6 babies, and larger species - 3-4 babies. The young are born blind.",
-            "answers": [
-                "Hedgehog",
-                "Lizard",
-                "Fox",
-                "Rabbit"
-            ],
-            "correct": 0
-        },
-        {
             "title": "Which of the following statements is true about scorpions?",
             "answers": [
                 "They give birth to their young one by one.",
@@ -8792,16 +7514,6 @@
                 "None of these"
             ],
             "correct": 0
-        },
-        {
-            "title": "The Gastric-brooding frog is an extinct species that is famous for this unique way of incubating its eggs.",
-            "answers": [
-                "The mother keeps the eggs inside her mouth until they hatch.",
-                "The female keeps the fertilized eggs in pouches along her abdomen.",
-                "The female keeps the eggs between her rear legs until they hatch.",
-                "The mother swallows the eggs and incubates them inside her stomach."
-            ],
-            "correct": 3
         },
         {
             "title": "Which of these statements is true about the Jacksons Chameleon?",
@@ -8944,16 +7656,6 @@
             "correct": 3
         },
         {
-            "title": "The representatives of what guinea pig breed have extremely long hair that never stops growing all over their bodies?",
-            "answers": [
-                "Teddy",
-                "Texel",
-                "Abyssinian",
-                "Peruvian"
-            ],
-            "correct": 3
-        },
-        {
             "title": "To what continent are raccoons native?",
             "answers": [
                 "North America",
@@ -9054,26 +7756,6 @@
             "correct": 0
         },
         {
-            "title": "The Ramphotyphlops braminus, a harmless blind snake species, found in Africa and Asia, is often mistaken for this animal.",
-            "answers": [
-                "Black mamba",
-                "Dog-faced water snake",
-                "Elephant Trunk Snake",
-                "Earthworm"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "How are the young Box turtles classified according to their diet, which differs from the diet of mature Box turtles?",
-            "answers": [
-                "Specialized eaters",
-                "Omnivores",
-                "Carnivores",
-                "Herbivores"
-            ],
-            "correct": 2
-        },
-        {
             "title": "What distinctive feature is characteristic of the crocodile species called gharial, or Indian gavial?",
             "answers": [
                 "Very short tail",
@@ -9092,46 +7774,6 @@
                 "It breaks easily."
             ],
             "correct": 3
-        },
-        {
-            "title": "What other common name is used for the New Caledonian bumpy gecko, a reptile found only on the southern end of the island of New Caledonia?",
-            "answers": [
-                "All of these",
-                "Gargoyle gecko",
-                "Devil gecko",
-                "Horny gecko"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "This snake, the only existing member of its family, can be found in Mexico and has a very muscular body and a shovel-shaped snout.",
-            "answers": [
-                "All of these",
-                "Dwarf boa",
-                "Pipe snake",
-                "Loxocemidae bicolor"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "What is unique about the reptile called tuatara, which is endemic to New Zealand and is sometimes called living fossils?",
-            "answers": [
-                "It has a well-developed third eye.",
-                "All of these",
-                "It has two rows of teeth in the upper jaw.",
-                "It is able to hear though it has no ears."
-            ],
-            "correct": 3
-        },
-        {
-            "title": "What feature of the turtle species Dermochelys coriacea makes it easily distinguishable from all the other sea turtles?",
-            "answers": [
-                "It has a very long tail.",
-                "It has no shell.",
-                "Its body has very vivid colors.",
-                "It has a horn on its head."
-            ],
-            "correct": 1
         },
         {
             "title": "In what geographical area is the Rock monitor lizard, or Legavaan, found?",
@@ -9646,16 +8288,6 @@
             "correct": 1
         },
         {
-            "title": "What important bone-building mineral do the cartilage of bats finger bones lack, which makes them very flexible?",
-            "answers": [
-                "Potassium",
-                "Magnesium",
-                "Calcium",
-                "Iron"
-            ],
-            "correct": 2
-        },
-        {
             "title": "What do megabats, also called flying foxes, feed on?",
             "answers": [
                 "All of these",
@@ -9692,26 +8324,6 @@
                 "It is a symbol of happiness and longevity.",
                 "It is considered a bad omen.",
                 "It is considered simply a pest."
-            ],
-            "correct": 1
-        },
-        {
-            "title": "What city in the US state of Texas is a home of the largest bat colony in North America during the summer?",
-            "answers": [
-                "Morton",
-                "Austin",
-                "Houston",
-                "Pittsburg"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "What name is commonly used when referring to the bat species Vampyrum spectrum, also known as False Vampire Bat?",
-            "answers": [
-                "Phantom Bat",
-                "Spectral Bat",
-                "All of these",
-                "Ghostly Bat"
             ],
             "correct": 1
         },
@@ -9810,32 +8422,6 @@
             "correct": 0
         },
         {
-            "title": "What flower remedy would be most beneficial to a stand-offish horse that gets irritated quickly and has a hard time accepting change?",
-            "answers": [
-                "Birch",
-                "Cerery",
-                "Beech",
-                "Cerato"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "Aspen is beneficial to a horse that is nervous and anxious, shies at invisible objects in a familiar arena and bolts for no reason.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "Rescue remedy is a combination of Rock Rose, Star of Bethlehem, Impatiens, Cherry Plum and Clematis essences.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 1
-        },
-        {
             "title": "All Bach flower remedies can be used by people.",
             "answers": [
                 "False",
@@ -9854,14 +8440,6 @@
             "correct": 3
         },
         {
-            "title": "The Cerato essence is suitable for horses that withhold their emotions despite suffering from a pain or disease.",
-            "answers": [
-                "True",
-                "False"
-            ],
-            "correct": 1
-        },
-        {
             "title": "Which of the following is used as a cleansing remedy?",
             "answers": [
                 "Cherry Plum",
@@ -9870,16 +8448,6 @@
                 "Crab Apple"
             ],
             "correct": 3
-        },
-        {
-            "title": "Salix vitellina is the scientific name of this essence usually given to a horse that appears to sulk, goes into moods and refuses any sort of attention.",
-            "answers": [
-                "Wild Rose",
-                "Wild Oat",
-                "Willow",
-                "Water Violet"
-            ],
-            "correct": 2
         },
         {
             "title": "What kind of animals are the colugos, or cobegos, which is found only in Asia?",
@@ -9912,16 +8480,6 @@
             "correct": 1
         },
         {
-            "title": "What is the color of the legs, bill and eye rims of the Green Magpie, a small Asian bird with bright green plumage?",
-            "answers": [
-                "Purple",
-                "Blue",
-                "Red",
-                "Bright pink"
-            ],
-            "correct": 2
-        },
-        {
             "title": "To which Asian country is the Giant Panda native?",
             "answers": [
                 "Indonesia",
@@ -9940,16 +8498,6 @@
                 "Kittis Hog-nosed Bat"
             ],
             "correct": 3
-        },
-        {
-            "title": "What name is used for the enigmatic bovid mammal Kting Voar, which is believed to populate Cambodia and Vietnam in Asia?",
-            "answers": [
-                "Snake-eating Cow",
-                "Lizard-eating Goat",
-                "All of these",
-                "Frog-chewing Sheep"
-            ],
-            "correct": 0
         },
         {
             "title": "What sense of the Malayan Tapir, also called Asian Tapir, is underdeveloped?",
@@ -10002,16 +8550,6 @@
             "correct": 2
         },
         {
-            "title": "What is the literal translation of the Greek word amphibios, from which the modern word amphibian originated?",
-            "answers": [
-                "Water and land",
-                "Both kinds of life",
-                "Two in one",
-                "Water and air"
-            ],
-            "correct": 1
-        },
-        {
             "title": "What interesting characteristic do all amphibians called caecilians share?",
             "answers": [
                 "They have no legs.",
@@ -10040,16 +8578,6 @@
                 "Their skin is transparent."
             ],
             "correct": 1
-        },
-        {
-            "title": "What other interesting name is used commonly to refer to the Purple frog, an amphibian endemic to the Western Ghats in India?",
-            "answers": [
-                "Pignose Frog",
-                "Chicken frog",
-                "All of these",
-                "Mole frog"
-            ],
-            "correct": 0
         },
         {
             "title": "What does the diet of the Eastern Tiger Salamander mainly consist of?",
@@ -10186,16 +8714,6 @@
             "correct": 3
         },
         {
-            "title": "What physical feature does the lemur Aye-aye share with rodents, leading to its original classification in order Rodentia?",
-            "answers": [
-                "Very large incisors",
-                "Inability to vomit",
-                "All of these",
-                "Similarities in the digestive system"
-            ],
-            "correct": 0
-        },
-        {
             "title": "What unusual physical characteristic does the lemur Aye-aye possess?",
             "answers": [
                 "Its pupils are constantly dilated.",
@@ -10314,16 +8832,6 @@
                 "In August 1927, 100 000 koalas were killed."
             ],
             "correct": 2
-        },
-        {
-            "title": "This fictional koala character, created by author Dorothy Wall, fist appeared in the 1933 book Jacko - the Broadcasting Kookaburra.",
-            "answers": [
-                "Nutsy",
-                "Jeremy",
-                "Noozles",
-                "Blinky Bill"
-            ],
-            "correct": 3
         },
         {
             "title": "What unusual anatomical characteristic does the koala possess?",
@@ -10586,66 +9094,6 @@
             "correct": 0
         },
         {
-            "title": "Which of these is the most distinctive feature of one of the largest marine creatures, which is also known to be the best diver - the sperm whale?",
-            "answers": [
-                "Its huge vivid eyes",
-                "Its extremely long tail",
-                "Its enormous head",
-                "The unique curvatures of its fins"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "Giant squids, for long believed to be mythical creatures, are a type of deep-ocean dwelling squid that can grow to a tremendous size. The giant squid also holds the record for the largest organ, in which of these bodily systems?",
-            "answers": [
-                "Digestive system",
-                "Visual system",
-                "Auditory system",
-                "Reproductive system"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "In Herman Melvilles Moby-Dick, the leading character Ahab, consumed with the desire for revenge for his lost leg, mindlessly pursues a whale nicknamed Moby Dick. What type of whale is Moby Dick, according to the book?",
-            "answers": [
-                "Sperm whale",
-                "Baleen whale",
-                "Blue whale",
-                "Humpback whale"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "This member of the oceanic dolphin family, named for its versatile predatory habits, cannot be mistaken with any other sea creature, due to its distinctive coloration - black back, white chest, sides, and a patch above and behind each eye.",
-            "answers": [
-                "Killer whale",
-                "Humpback dolphin",
-                "Pilot whale",
-                "Spinner dolphin"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "In marine science, ichthyology, branch of zoology closely related to marine biology and oceanography, is the study of what?",
-            "answers": [
-                "Microscopic marine life",
-                "Fish",
-                "Marine mammals",
-                "Marine plant life"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "Devilfish, a large species of ray, also called manta, was named such due to which of these characteristic features?",
-            "answers": [
-                "Its pointed tail",
-                "Two pointed lobes on each side of the head",
-                "Its hunting habits",
-                "Extended, winglike fins"
-            ],
-            "correct": 1
-        },
-        {
             "title": "Periplaneta americana, Blattella germanica and Gromphadorhina portentosa are all species of this insect.",
             "answers": [
                 "House fly",
@@ -10664,16 +9112,6 @@
                 "Monarch butterfly"
             ],
             "correct": 3
-        },
-        {
-            "title": "Many Royal Navy and US Navy ships are named after this fearful insect. Not just that, but an F/A-18 aircraft and a Honda motorcycle also carry its name.",
-            "answers": [
-                "Tarantula",
-                "Cicada",
-                "Hornet",
-                "Yellowjacket"
-            ],
-            "correct": 2
         },
         {
             "title": "The scarab, a sacred beetle to Ancient Egyptians, is commonly known as what?",
@@ -10956,16 +9394,6 @@
                 "False"
             ],
             "correct": 0
-        },
-        {
-            "title": "According to a survey, what percentage of American cat owners admit to blow drying their feline after giving it a bath?",
-            "answers": [
-                "15%",
-                "70%",
-                "25%",
-                "5%"
-            ],
-            "correct": 2
         },
         {
             "title": "Which type of cat is almost always female?",
@@ -11572,26 +10000,6 @@
             "correct": 0
         },
         {
-            "title": "Some animals have an inborn instinct to swallow gastroliths in order to improve the breaking down of food inside their stomachs. What kind of objects are gastroliths?",
-            "answers": [
-                "Rocks",
-                "Plants that are rich in digestive enzymes",
-                "Insects",
-                "Excrements"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "Parthenogenesis (from Greek - virgin creation), an asexual way of reproduction without the need of fertilization, occurs naturally in these animals.",
-            "answers": [
-                "All of these",
-                "Birds",
-                "Reptiles",
-                "Fish"
-            ],
-            "correct": 0
-        },
-        {
             "title": "Which of  the following statements is true about mosquitoes?",
             "answers": [
                 "Only female mosquitoes suck blood.",
@@ -11610,26 +10018,6 @@
                 "They do not have gills, they use their lungs for respiration."
             ],
             "correct": 0
-        },
-        {
-            "title": "Cockroaches are among the most resilient creatures on our planet. But how long can they survive without air?",
-            "answers": [
-                "60 minutes",
-                "45 minutes",
-                "10 minutes",
-                "2 hours"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "Human skin has the unique ability to acquire a darker shade when exposed to UV-rays. What animals share this ability with us?",
-            "answers": [
-                "Dolphins and seals",
-                "Chimpanzees and gorillas",
-                "Pigs and hammerhead sharks",
-                "All reptiles and anthropoid apes"
-            ],
-            "correct": 2
         },
         {
             "title": "Koalas almost exclusively feed on this type of food.",
@@ -11662,56 +10050,6 @@
             "correct": 3
         },
         {
-            "title": "The Mimic Leatherjacket, found in the tropical marine waters throughout the Indo-Pacific, mimics which poisonous fish?",
-            "answers": [
-                "Red Bass",
-                "Hogfish",
-                "Saddled Puffer",
-                "Stonefish"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "This primitive shark, with a brown thin eel-like body, has six pairs of gill slits and trident-like teeth.",
-            "answers": [
-                "Frilled shark",
-                "Tiger shark",
-                "Bull shark",
-                "Sharpnose seven-gill shark"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "This fish, which resembles the Angel fish, is recognized by its brightly coloured and patterned body, as well as by the dark band across its eyes.",
-            "answers": [
-                "Butterfly fish",
-                "Purple queen",
-                "Cichlid",
-                "Clown fish"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "The Parrot fish, found in the Atlantic Indian and Pacific Ocean reefs, was given its name for what reason?",
-            "answers": [
-                "Because of the shape of its body",
-                "Because it can fly a few metres above water",
-                "Because its body is in different flashy colours",
-                "Because of its beak-like mouth"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "What is the other name of Mola mola, a fish generally considered to be the most massive bony fish in the world?",
-            "answers": [
-                "Filefish",
-                "Ocean Sunfish",
-                "Pufferfish",
-                "Triggerfish"
-            ],
-            "correct": 1
-        },
-        {
             "title": "When threatened, this fish, also known as balloonfish, increases in size by swallowing water or air.",
             "answers": [
                 "Bowfin",
@@ -11720,36 +10058,6 @@
                 "Oar fish"
             ],
             "correct": 1
-        },
-        {
-            "title": "The zebrafish (Girella zebra), which can be recognised by its pale body and yellow fins, is endemic to which region?",
-            "answers": [
-                "Amazon River Basin",
-                "Australian waters",
-                "The Caribbean",
-                "Japan waters"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "The Flashlight fish, has a light-producing organ, which contains luminescent bacteria. Where is this organ located?",
-            "answers": [
-                "On the dorsal fin of the fish",
-                "Below the eye of the fish",
-                "Above the eye of the fish",
-                "Between the eyes of the fish"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "The catfishes Physailia pellucida and Kryptopterus bicirrhis, found in the mid-waters of Southeast Asia, use what kind of camouflage?",
-            "answers": [
-                "Transparency",
-                "Change their colour",
-                "Mimic algae",
-                "Mimic poisonous fish"
-            ],
-            "correct": 0
         },
         {
             "title": "Giant Pandas eat oranges and bananas.",
@@ -11826,16 +10134,6 @@
             "correct": 2
         },
         {
-            "title": "At birth, pandas weigh about 4 ounces and are the size of a stick of butter. Which of these is NOT true about a newborn panda?",
-            "answers": [
-                "They are grey in color.",
-                "They nurse up to 14 times a day.",
-                "They are hairless.",
-                "They are blind."
-            ],
-            "correct": 0
-        },
-        {
             "title": "Pandas do not hibernate.",
             "answers": [
                 "False",
@@ -11850,26 +10148,6 @@
                 "False"
             ],
             "correct": 1
-        },
-        {
-            "title": "Pandas spend 10-16 hours a day eating, the rest of the time they are usually resting. When are pandas most active?",
-            "answers": [
-                "at dusk and at dawn",
-                "between 10am and 2pm",
-                "between 2p and 10pm",
-                "only at night"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "When a panda is born, it is impossible to tell if it is male or female. How old is the panda before its gender is known?",
-            "answers": [
-                "3 months",
-                "1 year",
-                "4 years",
-                "6 months"
-            ],
-            "correct": 2
         },
         {
             "title": "Which of these is TRUE about pandas?",
@@ -12026,16 +10304,6 @@
             "correct": 2
         },
         {
-            "title": "Raccoons are usually nocturnal animals, and they are famous for dousing their food before eating it. This is actually an activity that imitates foraging for food at shores. What is the term for such an activity?",
-            "answers": [
-                "Vacuum activity",
-                "Vain activity",
-                "All of these",
-                "False activity"
-            ],
-            "correct": 0
-        },
-        {
             "title": "What sense helps kiwis find food in the dark?",
             "answers": [
                 "All of these",
@@ -12044,26 +10312,6 @@
                 "Hearing"
             ],
             "correct": 1
-        },
-        {
-            "title": "Kakapo is a nocturnal parrot indigenous to New Zealand. Due to its resemblance to this nocturnal animal, it is also called by its name.",
-            "answers": [
-                "Raccoon",
-                "Cat",
-                "Rat",
-                "Owl"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "Mink are mainly active at night and they do not hibernate. Which of these animals is a predator of the American Mink?",
-            "answers": [
-                "All of these",
-                "Wolf",
-                "Owl",
-                "Coyote"
-            ],
-            "correct": 0
         },
         {
             "title": "What animal is the largest nocturnal prosimian on the planet?",
@@ -12284,14 +10532,6 @@
             "correct": 3
         },
         {
-            "title": "The jaguars extremely powerful bite, which can pierce through a turtles shell, makes it the mammal with the strongest jaw in the animal kingdom.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 0
-        },
-        {
             "title": "Which of the following statements is not true about the reproduction of jaguars?",
             "answers": [
                 "Jaguars gestation period is 93 - 105 days.",
@@ -12318,16 +10558,6 @@
                 "True"
             ],
             "correct": 0
-        },
-        {
-            "title": "All but one of the following activities are generally untypical for jaguars. Choose the one most natural to them.",
-            "answers": [
-                "Starting to eat their prey from the fleshy abdominal area",
-                "Stalking and ambushing their prey",
-                "Chasing their prey",
-                "Attacking humans"
-            ],
-            "correct": 1
         },
         {
             "title": "In nature adult jaguars are apex predators in the food chain. What does this mean?",
@@ -12360,16 +10590,6 @@
             "correct": 3
         },
         {
-            "title": "Jaguars appearance seems to vary across regions and habitats. How do forest jaguars differ from the jaguars in open areas?",
-            "answers": [
-                "Forest jaguars are generally darker and larger",
-                "Forest jaguars are generally and more spotted",
-                "Forest jaguars are generally darker and smaller",
-                "Forest jaguars are generally larger and lighter in fur color"
-            ],
-            "correct": 2
-        },
-        {
             "title": "What continent does the large Griffon Vulture inhabit?",
             "answers": [
                 "Asia",
@@ -12390,16 +10610,6 @@
             "correct": 3
         },
         {
-            "title": "What is the literal meaning of the word raccoon, which originates from the Algonquin word ahrah-koon-em and denotes a scavenging mammal?",
-            "answers": [
-                "One who grasps with their hand just like a human",
-                "One who rubs, scrubs and scratches with its hands",
-                "One who eats whatever is in front of them",
-                "One who washes their hands and their food before eating"
-            ],
-            "correct": 1
-        },
-        {
             "title": "What term is mainly used in literature to refer to a group of crows?",
             "answers": [
                 "A mug",
@@ -12408,16 +10618,6 @@
                 "A murder"
             ],
             "correct": 3
-        },
-        {
-            "title": "What term refers to the animal that is the result of crossbreeding between a male coyote and a female dog?",
-            "answers": [
-                "All of these",
-                "Coypup",
-                "Coydog",
-                "Dogote"
-            ],
-            "correct": 2
         },
         {
             "title": "What do the beetles from the genus Nicrophorus do after finding a carcass?",
@@ -12436,16 +10636,6 @@
                 "Spotted Hyena",
                 "Striped Hyena",
                 "Brown Hyena"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "What kind of animals are the Yellow jackets, the scavenging and predatory animals belonging to the genera Vespula and Dolichovespula?",
-            "answers": [
-                "Flies",
-                "Wasps",
-                "All of these",
-                "Bees"
             ],
             "correct": 1
         },
@@ -12520,16 +10710,6 @@
             "correct": 3
         },
         {
-            "title": "Larger parrot species have longer life spans than smaller ones. What is the average life span of a large parrot?",
-            "answers": [
-                "Up to 80 years",
-                "20-25 years",
-                "Up to 50 years",
-                "14-15 years"
-            ],
-            "correct": 0
-        },
-        {
             "title": "What is the predominant color in Amazon Parrots plumage?",
             "answers": [
                 "Yellow",
@@ -12538,16 +10718,6 @@
                 "Blue"
             ],
             "correct": 2
-        },
-        {
-            "title": "The heaviest parrot species on the planet is the Kakapo. What is the average weight that a normal mature Kakapo can reach?",
-            "answers": [
-                "1.5 to 2 kg",
-                "2 to 4 kg",
-                "2.5 to 3 kg",
-                "2 to 2.5 kg"
-            ],
-            "correct": 1
         },
         {
             "title": "Which of these makes Cockatoos different from other parrot species?",
@@ -12576,16 +10746,6 @@
                 "California Spangled Cat"
             ],
             "correct": 0
-        },
-        {
-            "title": "This old breed of cat has long fur. It originated in the Middle East, and some of its representatives have a flat face.",
-            "answers": [
-                "Siamese",
-                "Chinchilla",
-                "Himalayan",
-                "Persian"
-            ],
-            "correct": 3
         },
         {
             "title": "This hairless cat has a dog-like face and folded ears.",
@@ -12618,16 +10778,6 @@
             "correct": 0
         },
         {
-            "title": "This cat breed is believed to have developed naturally in China. It has short golden brown fur with the so-called broken striped pattern and a large strong body.",
-            "answers": [
-                "Dragon Li",
-                "Oriental Bicolour",
-                "Korat",
-                "Cymric"
-            ],
-            "correct": 0
-        },
-        {
             "title": "What cat breed, also called the Greyhound of the cats, has no hair except for down?",
             "answers": [
                 "Don Sphynx",
@@ -12656,16 +10806,6 @@
                 "Ussuri"
             ],
             "correct": 1
-        },
-        {
-            "title": "This old large cat breed occurred naturally in Europe. It has waterproof thick fluffy fur and can survive very cold weather.",
-            "answers": [
-                "Norwegian Forest Cat",
-                "Persian",
-                "Squitten",
-                "Ragamuffin"
-            ],
-            "correct": 0
         },
         {
             "title": "What is the name of the communities formed by rabbits living together?",
@@ -12776,16 +10916,6 @@
             "correct": 2
         },
         {
-            "title": "What name is used to refer to the scorpion species also known as Omdurman scorpion, and Israeli desert scorpion?",
-            "answers": [
-                "Bonebreaker",
-                "Windchaser",
-                "Deathstalker",
-                "Nightkiller"
-            ],
-            "correct": 2
-        },
-        {
             "title": "Scorpions are known to glow when exposed to this type of light.",
             "answers": [
                 "All of these",
@@ -12794,16 +10924,6 @@
                 "Blacklight"
             ],
             "correct": 3
-        },
-        {
-            "title": "What distinctive anatomical characteristic do the scorpions from the Hemiscorpiidae family possess, which makes them easily recognizable?",
-            "answers": [
-                "They have only four legs.",
-                "Their sting is intense red",
-                "Their body is flat and broad.",
-                "All of these"
-            ],
-            "correct": 2
         },
         {
             "title": "There is a separate species of scorpions which have two tails, with a venomous sting on each tail.",
@@ -12854,26 +10974,6 @@
             "correct": 0
         },
         {
-            "title": "Scorpion venom is regarded as a potential source of chemicals that can be used in the treatment of this disease.",
-            "answers": [
-                "Autoimmune disorders",
-                "Cancer",
-                "Multiple sclerosis",
-                "All of these"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "What common name is used to refer to the insects from the subfamily Triatominae, mainly found in the Americas?",
-            "answers": [
-                "Kissing bugs",
-                "Lollipop bugs",
-                "Microphone bugs",
-                "Pretty bugs"
-            ],
-            "correct": 0
-        },
-        {
             "title": "What is the largest extant butterfly species on the planet?",
             "answers": [
                 "Rajah Brookes Birdwing",
@@ -12914,16 +11014,6 @@
             "correct": 1
         },
         {
-            "title": "What belief about the European hornet, the largest European eusocial wasp, is widespread among the people who are afraid of it?",
-            "answers": [
-                "If it stings you, youll never have children.",
-                "If it stings you on the arm or leg, that limb has to be amputated.",
-                "Three stings can kill an adult human, and seven can kill a horse.",
-                "Stinging results in deep sleep that you may never wake up from."
-            ],
-            "correct": 2
-        },
-        {
             "title": "To what geographical area is the Ctenomorphodes chronus, a species of stick insect, endemic?",
             "answers": [
                 "All of these",
@@ -12950,16 +11040,6 @@
                 "Front legs",
                 "Hind legs",
                 "Tail"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "What is the literal translation of the Greek word Embioptera, which denotes an order of insects, also known as webspinners?",
-            "answers": [
-                "Small wings",
-                "None of these",
-                "Yarn knitter",
-                "Lively wings"
             ],
             "correct": 3
         }
@@ -13132,16 +11212,6 @@
             "correct": 3
         },
         {
-            "title": "An ancient Chozo prophecy predicts the coming of Phazon and the Metroid Prime. In this prophecy the Metroid Prime is referred to as which of the following?",
-            "answers": [
-                "Worm",
-                "Beast",
-                "Destroyer",
-                "Consumer"
-            ],
-            "correct": 0
-        },
-        {
             "title": "King Worm can be fought after Mother Brainin Metroid Zero Mission.",
             "answers": [
                 "True",
@@ -13206,14 +11276,6 @@
                 "Rufus"
             ],
             "correct": 2
-        },
-        {
-            "title": "In N.O.V.A, Kal Wardin is rewarded for finding out what happened aboard the Colonial Pride by almost being killed.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 1
         },
         {
             "title": "Who is the leader of the Volterites in N.O.V.A?",
@@ -13485,16 +11547,6 @@
             "correct": 0
         },
         {
-            "title": "Which games were included in the 2003 Legend of Zelda Collectors edition that became available on the Nintendo GameCube?",
-            "answers": [
-                "The Legenda of Zelda, The Adventure of Link, A Link to the Past, Ocarina of TIme",
-                "Orcale of Seasons, Orcale of Ages, Links Awakening, and Minish Cap",
-                "The Legend of Zelda, The Adventure of Link, Ocarina of Time, Majoras Mask",
-                "A Link to the Past, Majoras Mask, Ocarina of Time, Wind Waker"
-            ],
-            "correct": 2
-        },
-        {
             "title": "Which Final Fantasy 3 character is known for blitzes such as Bum Rush, Pummel, and Suplex?",
             "answers": [
                 "Edgar",
@@ -13565,16 +11617,6 @@
             "correct": 3
         },
         {
-            "title": "This character, who has appeared in nearly every Final Fantasy game, usually provides transportation to the main characters.",
-            "answers": [
-                "Edgar",
-                "Cid",
-                "Sabin",
-                "Squall"
-            ],
-            "correct": 1
-        },
-        {
             "title": "In this Final Fantasy spin-off every new recruit starts out as a Squire or a Chemist.",
             "answers": [
                 "Final Fantasy Mystic Quest",
@@ -13635,24 +11677,6 @@
                 "Makin Magic, Holiday, Party"
             ],
             "correct": 2
-        },
-        {
-            "title": "In the computer game The Sims 2, in order for a Sim to have a baby, you must select the woohoo option on a different Sim.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "On the cover of the Sims 2 University expansion pack there is a picture of two Sims, one male and one female. What is the male Sim wearing?",
-            "answers": [
-                "hippie outfit",
-                "toga",
-                "mascot costume",
-                "football equipment"
-            ],
-            "correct": 1
         },
         {
             "title": "Bella Goth is absent from the family when The Sims 2 begins.",
@@ -13783,16 +11807,6 @@
             "correct": 3
         },
         {
-            "title": "This 9th level wizard spell is sought after by many characters as a reward.  Many wizards also strive to learn this spell.",
-            "answers": [
-                "Power Word Kill",
-                "Wish",
-                "Imprisonment",
-                "Gate"
-            ],
-            "correct": 1
-        },
-        {
             "title": "This class must choose 2 weapon fighting or archery as their weapon style at 2nd level.",
             "answers": [
                 "Bard",
@@ -13809,16 +11823,6 @@
                 "world 1 fortress",
                 "world 2-5",
                 "world 1-4"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "In Mario Kart: Double Dash, what is the last thing you unlock by getting gold in the all cup tour in mirror mode?",
-            "answers": [
-                "Parade car",
-                "Bullet car",
-                "Super Mario car",
-                "Ganondorf car"
             ],
             "correct": 0
         },
@@ -14161,14 +12165,6 @@
             "correct": 2
         },
         {
-            "title": "There is at least one game of the Zelda series of games, released from 1986 to 2006, in which Zelda and Link get married.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 0
-        },
-        {
             "title": "What is the name of the owner of lon-lon ranch in the Zelda series of games?",
             "answers": [
                 "Zelda",
@@ -14177,16 +12173,6 @@
                 "Talon"
             ],
             "correct": 3
-        },
-        {
-            "title": "In The Legend of Zelda: Twilight Princess, what was the name of the villain that had been fired from a joker at Hyrule Castle?",
-            "answers": [
-                "None of these",
-                "Gannondorf",
-                "Navi",
-                "Vati"
-            ],
-            "correct": 0
         },
         {
             "title": "In the Zelda series of games, what is the name of the tribe Gannondorf comes from?",
@@ -14257,16 +12243,6 @@
                 "A barbarian"
             ],
             "correct": 2
-        },
-        {
-            "title": "What is the name of the sword used to defeat the demon in the demon slayer quest of the online role-playing game RuneScape?",
-            "answers": [
-                "Brightheart",
-                "Demonbane",
-                "The Shining Light",
-                "Silverlight"
-            ],
-            "correct": 3
         },
         {
             "title": "In the online role-playing game RuneScape, what kind of fruit is grown in Karajama?",
@@ -14345,34 +12321,6 @@
                 "Robert"
             ],
             "correct": 2
-        },
-        {
-            "title": "This creature from the game Resident Evil 4 was created by splicing genes from reptiles, insects and a human into one organism.",
-            "answers": [
-                "None of the above",
-                "Verdugo",
-                "Garrador",
-                "U3"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "In the survival video game Resident Evil 4, the handcannon with its exclusive upgrade does 99.9 damage and has infinite ammo.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "Not including the rocket launcher, what is the second most powerful weapon in Resident Evil 4, according to its damage per shot?",
-            "answers": [
-                "Semi-auto rifle",
-                "Chicago typewriter",
-                "Killer7",
-                "Broken butterfly"
-            ],
-            "correct": 3
         },
         {
             "title": "Whose final speech ends in We shall win through no matter the cost!",
@@ -14493,16 +12441,6 @@
                 "Halo"
             ],
             "correct": 3
-        },
-        {
-            "title": "This is the overworld theme to this NES game that introduced the save function because the game took so long to complete.",
-            "answers": [
-                "Metroid",
-                "Donkey Kong",
-                "Legend of Zelda",
-                "Super Mario Bros."
-            ],
-            "correct": 2
         },
         {
             "title": "This is the victory theme to what popular video game series?",
@@ -14783,16 +12721,6 @@
             "correct": 0
         },
         {
-            "title": "In the racing game Need for Speed: Most Wanted, what are the street names of  Blacklist numbers 1, 4, 7, and 15?",
-            "answers": [
-                "Razor, JV, Kaze, Sonny",
-                "Taz, Big Lou, Baron, Ronnie",
-                "Kaze, Big Lou, Bull, Razor",
-                "Webster, Vic, Izzy, Bull"
-            ],
-            "correct": 0
-        },
-        {
             "title": "How many maximum infractions can you get in a single pursuit in the game Need for Speed: Most Wanted?",
             "answers": [
                 "10",
@@ -14807,16 +12735,6 @@
             "answers": [
                 "Yes",
                 "No"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "Which of the following refers to the ability to win a Blacklist opponents car in the game Need for Speed: Most Wanted?",
-            "answers": [
-                "pink slip",
-                "gold bars",
-                "orange tye",
-                "thong wrap"
             ],
             "correct": 0
         },
@@ -14849,82 +12767,12 @@
             "correct": 0
         },
         {
-            "title": "The core of this gaming console, released in 1977, was combined with a display and sound chip known as the TIA, for Television Interface Adaptor.  The console was capable of producing 2 channel mono sound.",
-            "answers": [
-                "Sega Master System",
-                "Intellivision",
-                "Atari 2600",
-                "Nintendo Entertainment System (NES)"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "The sound chip of the Commodore 64 home computer, released in 1982, was very advanced for its time.  It had three channels with several different waveforms, which could reach 8 different octaves each (approximately 16 - 4000 Hz).  Name the chip.",
-            "answers": [
-                "Sound Interface Disk",
-                "Sound Interface Component",
-                "Sound Interface Device",
-                "Sound Interface Chip"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "My rogue in the game Dungeons and Dragons wants to use a wand of Greater Invisibility. In order to do this he must make a Use Magic Device check at what Difficulty Class?",
-            "answers": [
-                "25",
-                "30",
-                "20",
-                "15"
-            ],
-            "correct": 2
-        },
-        {
             "title": "Which of the listed bonuses in the game Dungeons and Dragons stacks?",
             "answers": [
                 "Dodge",
                 "Enchantment",
                 "Armor",
                 "Divine"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "Which of these feats does not prevent attacks of opportunity in one form or another in the role-playing game Dungeons and Dragons?",
-            "answers": [
-                "Spring Attack",
-                "Flyby Attack",
-                "Improved Unarmed Strike",
-                "Improved Trip"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "Which Knowledge Skill would allow you to determine the type of Giant you are facing in Dungeons and Dragons?",
-            "answers": [
-                "Dungeoneering",
-                "Religion",
-                "Arcane",
-                "Nature"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "In the game Dungeons and Dragons, a character with 5 ranks in Bluff gains a +2 synergy bonus to all these skills but one. Which is the odd one?",
-            "answers": [
-                "Diplomacy",
-                "Intimidate",
-                "Sleight of Hand",
-                "Gather Information"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "Which of these is not a correct entrance requirement to join the Assassin Prestige Class in Dungeons and Dragons?",
-            "answers": [
-                "Disguise 8 ranks",
-                "Move Silently 8 ranks",
-                "Hide 8 ranks",
-                "Alignment: Any evil"
             ],
             "correct": 0
         },
@@ -14939,16 +12787,6 @@
             "correct": 2
         },
         {
-            "title": "In Dungeons and Dragons, the Tumble Difficulty Class needed to kip up, according the Complete Adventurer book, is what?",
-            "answers": [
-                "30",
-                "35",
-                "40",
-                "25"
-            ],
-            "correct": 1
-        },
-        {
             "title": "Which class in Dungeons and Dragons does not get evasion?",
             "answers": [
                 "Monk",
@@ -14959,26 +12797,6 @@
             "correct": 3
         },
         {
-            "title": "Of the choices for a Rangers favored enemy in Dungeons and Dragons, which number is immune to sneak attacks?",
-            "answers": [
-                "6",
-                "4",
-                "3",
-                "5"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "How many golden skulltulas could you get as child Link out of the whole game The Legend of Zelda: Ocarina of Time?",
-            "answers": [
-                "35",
-                "10",
-                "20",
-                "30"
-            ],
-            "correct": 0
-        },
-        {
             "title": "How many heart pieces can you get as adult Link in the game The Legend of Zelda: Ocarina of Time?",
             "answers": [
                 "5",
@@ -14987,16 +12805,6 @@
                 "10"
             ],
             "correct": 1
-        },
-        {
-            "title": "In the video game The Legend of Zelda: Ocarina of Time, what are the two places where you can get the hylian shield?",
-            "answers": [
-                "lake Hylia and Hyrule castle.",
-                "Haunted Wasteland and Zoras domain.",
-                "Goron city and Kokiri forest.",
-                "Kakariko Graveyard and Hyrule town market."
-            ],
-            "correct": 3
         },
         {
             "title": "In The Legend of Zelda: Ocarina of Time, how many items do you get that are improved later in the game?",
@@ -15017,24 +12825,6 @@
                 "9"
             ],
             "correct": 3
-        },
-        {
-            "title": "In the video game The Legend of Zelda: Ocarina of Time, Link wore tunics in three colors. They were green, red and yellow.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "How many hidden fairy fountains are there in the game The Legend of Zelda: Ocarina of Time, not counting the great fairies?",
-            "answers": [
-                "3",
-                "5",
-                "6",
-                "2"
-            ],
-            "correct": 2
         },
         {
             "title": "Which of the following is NOT a character class in World of Warcraft?",
@@ -15159,16 +12949,6 @@
             "correct": 2
         },
         {
-            "title": "In what way can you evolve the pokemon Gilgar into Gliscor in the Diamond and Pearl Pokemon series for Nintendo DS?",
-            "answers": [
-                "Trade it.",
-                "Trade it holding a razor fang.",
-                "None of these",
-                "Level up."
-            ],
-            "correct": 2
-        },
-        {
             "title": "How do you evolve an Electabuzz into an Electrivire in the Diamond and Pearl Pokemon series?",
             "answers": [
                 "None of these",
@@ -15207,16 +12987,6 @@
                 "None of these"
             ],
             "correct": 3
-        },
-        {
-            "title": "In what way can you evolve the pokemon Snorunt into a Frosslass in the Diamond and Pearl Pokemon series for Nintendo DS?",
-            "answers": [
-                "Use a dawn stone on a male Snorunt.",
-                "Use a shiny stone on a male Snorunt.",
-                "Use a dawn stone on a female Snorunt.",
-                "Use a shiny stone on a females Snorunt."
-            ],
-            "correct": 2
         },
         {
             "title": "How do you evolve a Dusclops into a Duskinoir in Pokemon Diamond and Pearl?",
@@ -15259,14 +13029,6 @@
             "correct": 0
         },
         {
-            "title": "In Final Fantasy X, when you enter the Farplane in Guadosalam to talk to Yunas father, Auron stays behind because he is scared of confronting Jecht.",
-            "answers": [
-                "True",
-                "False"
-            ],
-            "correct": 1
-        },
-        {
             "title": "Which of these is not a blitzball team from the PS2 game Final Fantasy X?",
             "answers": [
                 "Guado Glories",
@@ -15275,36 +13037,6 @@
                 "Luca Goers"
             ],
             "correct": 2
-        },
-        {
-            "title": "In Final Fantasy X, where do you get each of the following aeons respectively: Ifrit, Shiva, Yojimbo, Valefor, Magus Sisters, Ixion?",
-            "answers": [
-                "Djose, Requiem, Besaid, Macalania, Calm Lands, Kilika",
-                "Kilika, Macalania, Calm Lands, Besaid, Requiem, Djose",
-                "Macalania, Kilika, Calm Lands, Gagazet, Requiem, Djose.",
-                "Kilika, Djose, Calm Lands, Requiem, Besiad, Macalania"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "Where is Maester Seymour the final time you have to fight him in the PS2 role-playing game Final Fantasy X?",
-            "answers": [
-                "On top of Mt. Gagazet",
-                "On the Highroad in Bevelle",
-                "Outside Besaid",
-                "In the Sea of Sorrows inside Sin"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "According to Final Fantasy X, what does this sentence in the Al Bhed language translate to: Xna ehi ayo degurk e wouj?",
-            "answers": [
-                "How can you ignore a call?",
-                "Did you see Tidus swim?",
-                "Why not see snakes a rule!",
-                "Why are you taking a quiz?"
-            ],
-            "correct": 3
         },
         {
             "title": "In Yunas speech at the end of Final Fantasy X, what phrase is an almost direct reference to Tidus?",
@@ -15333,22 +13065,6 @@
                 "False"
             ],
             "correct": 1
-        },
-        {
-            "title": "Is it true that in Legend of Zelda Twilight Princess, after you get the Master Sword you can transform into a wolf any time you like?",
-            "answers": [
-                "No",
-                "Yes"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "Is it true that in Legend of Zelda and the Wind Waker, after you beat the game you can make a new file and not get Links green clothing?",
-            "answers": [
-                "Yes",
-                "No"
-            ],
-            "correct": 0
         },
         {
             "title": "In Legend of Zelda Ocarina of Time, once you pull out the Master Sword you will become older.",
@@ -15505,16 +13221,6 @@
             "correct": 0
         },
         {
-            "title": "Who made the following statement in the game Chrono Cross: I love you so much... That is why I sometimes desire to smash you to bits!!!?",
-            "answers": [
-                "Fate",
-                "Kid",
-                "Lynx",
-                "Sarge"
-            ],
-            "correct": 0
-        },
-        {
             "title": "Which of these songs from the Chrono Cross soundtrack is on the sound clip?",
             "answers": [
                 "Garden of the Gods",
@@ -15523,16 +13229,6 @@
                 "Dream of  the Shore Near Another World"
             ],
             "correct": 1
-        },
-        {
-            "title": "Which Chrono Cross character delivered the following words: In your eyes, I perceive both the look of a beauty  and the look of a beast.?",
-            "answers": [
-                "Harle",
-                "Kid",
-                "Fortune Teller",
-                "Serge"
-            ],
-            "correct": 2
         },
         {
             "title": "Listen to the sound clip and name the song from the Chrono Cross soundtrack.",
@@ -15667,16 +13363,6 @@
             "correct": 0
         },
         {
-            "title": "What is inside the lamp given to you by Headmaster Cid before your first official SEED mission in the role-playing game Final Fantasy VIII?",
-            "answers": [
-                "Ethers",
-                "Ifrit",
-                "Potions",
-                "Diablos"
-            ],
-            "correct": 3
-        },
-        {
             "title": "In Final Fantasy VIII, what is Seifers romantic dream?",
             "answers": [
                 "To be Edeas knight",
@@ -15723,14 +13409,6 @@
                 "Griever"
             ],
             "correct": 3
-        },
-        {
-            "title": "In the game Animal Crossing, the players must work part-time for the character who gives them their first house.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 0
         },
         {
             "title": "In the video game Animal Crossing the player can dig up fossils.",
@@ -16041,58 +13719,12 @@
             "correct": 1
         },
         {
-            "title": "In Gobis Valley from the Banjo-Kazooie adventure video game, how many notes are there in front of the door that you ride the magic carpet to?",
-            "answers": [
-                "3",
-                "5",
-                "9",
-                "7"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "In Mad Monster Mansion from the Banjo-Kazooie video game, what is the time shown on the clock above the church?",
-            "answers": [
-                "13 oclock",
-                "None of these",
-                "The hands are moving",
-                "Midnight"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "In the quiz stage of the adventure video game Banjo-Kazooie, failing a question on a Grunty Space will cause the characters to fall into the lava pit.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 0
-        },
-        {
             "title": "Gobi is the name of the camel in Gobis Valley in the Banjo and Kazooie video game.",
             "answers": [
                 "True",
                 "False"
             ],
             "correct": 0
-        },
-        {
-            "title": "Do you need to talk to somebody in Kurast Docks in order to activate the first quest in Act III of the computer game Diablo II?",
-            "answers": [
-                "No",
-                "Yes"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "Complete the title of the 2nd quest in Act III of the computer game Diablo II:  Blade of the _____ Religion.",
-            "answers": [
-                "New",
-                "Lost",
-                "Old",
-                "Found"
-            ],
-            "correct": 2
         },
         {
             "title": "In the third quest of Act III in Diablo II, how many items must be retrieved?",
@@ -16145,16 +13777,6 @@
             "correct": 1
         },
         {
-            "title": "You must talk to this person in order to activate your 2nd quest in Act IV of the computer game Diablo II.",
-            "answers": [
-                "Tyrael",
-                "Halbu",
-                "Jamella",
-                "Deckard Cain"
-            ],
-            "correct": 3
-        },
-        {
             "title": "What is the title of the last quest in Act IV of the computer game Diablo II?",
             "answers": [
                 "Diablo: Lord of Terror",
@@ -16193,16 +13815,6 @@
             "correct": 0
         },
         {
-            "title": "After you beat Guitar Hero III on Expert, you are informed that you can really test your skill by doing this.",
-            "answers": [
-                "playing Expert in Precision Mode",
-                "playing people online",
-                "trying to get 5 stars on every song",
-                "battling against a friend"
-            ],
-            "correct": 0
-        },
-        {
             "title": "On what date was the release of Call of Duty 4: Modern Warfare announced?",
             "answers": [
                 "April 25, 2007",
@@ -16211,16 +13823,6 @@
                 "June 22, 2007"
             ],
             "correct": 0
-        },
-        {
-            "title": "How many times can a player trade in their levels at prestige mode in the first-person shooter Call of Duty 4?",
-            "answers": [
-                "11",
-                "9",
-                "10",
-                "12"
-            ],
-            "correct": 2
         },
         {
             "title": "In the Xbox 360 version of Call of Duty 4, the achievement war pig is given for killing Khaled Al-Asad.",
@@ -16243,16 +13845,6 @@
             "answers": [
                 "False",
                 "True"
-            ],
-            "correct": 1
-        },
-        {
-            "title": "Who do you have to talk in order to receive your first quest after creating a character in the game Diablo II?",
-            "answers": [
-                "Kashya",
-                "Akara",
-                "Warriv",
-                "Charsi"
             ],
             "correct": 1
         },
@@ -16433,16 +14025,6 @@
             "correct": 2
         },
         {
-            "title": "What word is always attached to the names of the shots that come from Samus arm-mounted gun in the Metroid video game?",
-            "answers": [
-                "Beam",
-                "Rocket",
-                "Gun",
-                "Launcher"
-            ],
-            "correct": 0
-        },
-        {
             "title": "What type of character is Samus from the Metroid video game?",
             "answers": [
                 "Chozo Male",
@@ -16481,16 +14063,6 @@
                 "Grapple Beam"
             ],
             "correct": 0
-        },
-        {
-            "title": "In the Metroid video game series, what species created the suit and most of the upgrades available to Samus?",
-            "answers": [
-                "The Lords of Science",
-                "The Chozo",
-                "The Luminoth",
-                "The X"
-            ],
-            "correct": 1
         },
         {
             "title": "Which of these is not an ability available to Samus while in Morph Ball Mode of the Metroid video game?",
@@ -16663,16 +14235,6 @@
             "correct": 2
         },
         {
-            "title": "In what way can you evolve the Pokemon Gilgar into Gliscor in the Diamond and Pearl Pokemon series for Nintendo DS?",
-            "answers": [
-                "none of these",
-                "train it at night",
-                "Trade it while holding a razor fang",
-                "trade it"
-            ],
-            "correct": 0
-        },
-        {
             "title": "Celebi is a grass type Pokemon that you can find in the sinnow region.",
             "answers": [
                 "True",
@@ -16789,16 +14351,6 @@
             "correct": 0
         },
         {
-            "title": "In the RuneScape game, on the Construction Skillcape emote, the character performing the emote does which of the following?",
-            "answers": [
-                "Builds a small house around himself",
-                "Hammers down nails on a board",
-                "Makes a workbench with a saw",
-                "Builds a bridge"
-            ],
-            "correct": 0
-        },
-        {
             "title": "To equip Barrows armour and weapons in RuneScape, you must have an attack and defence level 70.",
             "answers": [
                 "True",
@@ -16831,14 +14383,6 @@
                 "a giant cookie"
             ],
             "correct": 1
-        },
-        {
-            "title": "In the mime random event in RuneScape, the object is to identify all the mime emotes and get a reward afterwards.",
-            "answers": [
-                "True",
-                "False"
-            ],
-            "correct": 0
         },
         {
             "title": "To start the Demon Slayer Quest in RuneScape, you must talk to which one of these?",
@@ -16933,40 +14477,10 @@
             "correct": 0
         },
         {
-            "title": "All of the following are items used in the game Super Mario Kart, for the Super NES, except which one of the following?",
-            "answers": [
-                "coins",
-                "banana peel",
-                "ghost",
-                "blue shell"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "On the Nintendo 64 version of Mario Kart, Wario replaced which of the following playable characters from the Super NES version?",
-            "answers": [
-                "Princess Peach",
-                "Koopa Troopa",
-                "Donkey Kong",
-                "Yoshi"
-            ],
-            "correct": 1
-        },
-        {
             "title": "There is a PC port in the first three Timesplitters games.",
             "answers": [
                 "False",
                 "True"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "How many of the following Power Rangers games are for PC: Power Rangers; Power Rangers: Lightspeed Rescue; Power Rangers: Super Legends; Power Rangers Zeo Versus the Machine Empire; Power Rangers: Ninja Storm Double Pack?",
-            "answers": [
-                "5",
-                "4",
-                "2",
-                "1"
             ],
             "correct": 0
         },
@@ -17109,26 +14623,6 @@
             "correct": 0
         },
         {
-            "title": "In the Nancy Drew conputer games, Nancy Drews trusty sidekicks are cousins George Fayne and this slightly plump blonde.",
-            "answers": [
-                "Jenny",
-                "Beth",
-                "Bess",
-                "Tess"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "These two detective brothers appear several times in the Nancy Drew computer games to help Nancy solve mysteries.",
-            "answers": [
-                "Frank and Joe",
-                "Frank and Moe",
-                "Fred and Joseph",
-                "None of these"
-            ],
-            "correct": 0
-        },
-        {
             "title": "What was the very first Nancy Drew computer game?",
             "answers": [
                 "Treasure in the Royal Tower",
@@ -17145,16 +14639,6 @@
                 "A bat wing",
                 "She did not find anything along with the note.",
                 "A shark tooth"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "In which of these computer games did Nancy Drew wake up in the middle of the night because of a nightmare?",
-            "answers": [
-                "Creature of Kapu Cave",
-                "Secrets Can Kill",
-                "She never had a nightmare.",
-                "Ghost of Blackmoor Manor"
             ],
             "correct": 3
         },
@@ -17177,16 +14661,6 @@
                 "The Waverly Academy crow"
             ],
             "correct": 0
-        },
-        {
-            "title": "Rick Arlen is known as an arrogant television star from Stay Tuned for Danger, but his picture appears in what place in another Nancy Drew game?",
-            "answers": [
-                "His picture never appears in another game",
-                "In a briefcase",
-                "In a bottle",
-                "In a bedside picture frame"
-            ],
-            "correct": 1
         },
         {
             "title": "The wolf in the computer game White Wolf of Icicle Creek was named Isis.",
@@ -17223,16 +14697,6 @@
                 "In a volcano"
             ],
             "correct": 0
-        },
-        {
-            "title": "When your raft gets washed up, what is the place it lands (for the first time) in the game Wonderland Online?",
-            "answers": [
-                "Beginners Island",
-                "Tutorial Ridge",
-                "Starter Beach",
-                "Newbie Point"
-            ],
-            "correct": 2
         },
         {
             "title": "Which one of these is not a jelly monster you can find on North Island in the game Wonderland Online?",
@@ -17655,24 +15119,6 @@
             "correct": 3
         },
         {
-            "title": "The King Black Dragon was the highest level monster in Runescape until 7 September 2004, when it was replaced by which of the following?",
-            "answers": [
-                "Mithril Dragon",
-                "Dust Devil",
-                "None of these",
-                "The Kalphite Queen"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "Did any Runescape player manage to kill the Corporal Beast by themselves without abusing a glitch during the first year of the Beasts release?",
-            "answers": [
-                "No",
-                "Yes"
-            ],
-            "correct": 0
-        },
-        {
             "title": "On Tutorial Island of RuneScape you get runes from a male character.",
             "answers": [
                 "False",
@@ -17773,32 +15219,6 @@
             "correct": 1
         },
         {
-            "title": "A pipe bomb is an ideal weapon to destroy LFD zombies because it is a silent weapon and they wont hear it when you throw it among a group of them.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "Unlike in other video or PC games you cannot save a game in LFD and then come back later to play it from where you left off.",
-            "answers": [
-                "True",
-                "False"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "Name the fictional government agency or organization that was supposed to fight the infection and evacuate people from infected areas in LFD.",
-            "answers": [
-                "CEDA",
-                "UNSC",
-                "PETA",
-                "USAA"
-            ],
-            "correct": 0
-        },
-        {
             "title": "In LFD2 the Parish campaign takes place in this city.",
             "answers": [
                 "Savannah",
@@ -17815,16 +15235,6 @@
                 "The Rockabillies",
                 "Stagnant Water",
                 "The Midnight Riders"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "What pestilence or disease caused people to turn into zombies and deformed some of them into super mutants in LFD?",
-            "answers": [
-                "Swines disease",
-                "The mutant virus",
-                "Nuclear malaria",
-                "The green flu"
             ],
             "correct": 3
         },
@@ -18119,26 +15529,6 @@
             "correct": 2
         },
         {
-            "title": "Which character in Super Smash Bros. Melee is unlocked by beating the game with a character from the same game?",
-            "answers": [
-                "Falco",
-                "Mewtwo",
-                "Roy",
-                "Captain Falcon"
-            ],
-            "correct": 2
-        },
-        {
-            "title": "Which character in Super Smash Bros. Melee had the ability to pick up other characters and walk with them?",
-            "answers": [
-                "Ganondorf",
-                "Donkey Kong",
-                "Bowser",
-                "Mario"
-            ],
-            "correct": 1
-        },
-        {
             "title": "Which of the following game series featured the most Super Smash Bros. Melee characters?",
             "answers": [
                 "Zelda",
@@ -18169,16 +15559,6 @@
             "correct": 0
         },
         {
-            "title": "In video game Gears of War, these creatures let loose loud piercing shrieks when they attack but are generally easy to kill.",
-            "answers": [
-                "Wretches",
-                "Drones",
-                "Corpsers",
-                "Theron Guards"
-            ],
-            "correct": 0
-        },
-        {
             "title": "In Gears of War, if you stay in the dark and walk slowly, the mutant race Kryll wont attack you.",
             "answers": [
                 "False",
@@ -18197,14 +15577,6 @@
             "correct": 2
         },
         {
-            "title": "In the third-person shooter Gears of War, can you kill the Corpser in the Locust tunnels by using the Hammer of Dawn?",
-            "answers": [
-                "Yes",
-                "No"
-            ],
-            "correct": 1
-        },
-        {
             "title": "What is the name of the Colonel who is in command according to the scenarios in Gears of War?",
             "answers": [
                 "Raam",
@@ -18215,16 +15587,6 @@
             "correct": 2
         },
         {
-            "title": "In the Gears of War game, which member of Alpha Team is first found fighting in a small courtyard, alone and taunting the Locust?",
-            "answers": [
-                "Cole",
-                "Baird",
-                "Rojas",
-                "Kim"
-            ],
-            "correct": 0
-        },
-        {
             "title": "Which difficulty setting can only be unlocked by completing Gears of War once on any difficulty?",
             "answers": [
                 "Normal",
@@ -18233,14 +15595,6 @@
                 "Hardcore"
             ],
             "correct": 2
-        },
-        {
-            "title": "General RAAM is protected by the mutant race Kryll when you try to kill him on the train at the end of Gears of War.",
-            "answers": [
-                "True",
-                "False"
-            ],
-            "correct": 0
         },
         {
             "title": "Which of these dragons is the strongest in the Runescape game?",
@@ -18317,14 +15671,6 @@
                 "False"
             ],
             "correct": 0
-        },
-        {
-            "title": "In the action/adventure game Killer7, the name of the assassin who can change between seven deadly personalities is Harman Smith.",
-            "answers": [
-                "False",
-                "True"
-            ],
-            "correct": 1
         },
         {
             "title": "Which persona from the Killer7 game is the one with the Scope on his/her Automatic?",
@@ -18407,42 +15753,12 @@
             "correct": 1
         },
         {
-            "title": "Besides your Avatar, what other characters can you get at the beginning of the game Baldurs Gate II: Shadows of Amn?",
-            "answers": [
-                "Imoen, Jahiera, Minsc",
-                "Aerie, Jahiera, Jan",
-                "Khalid, Jahiera, Minsc",
-                "Valygar, Jahiera, Minsc"
-            ],
-            "correct": 0
-        },
-        {
             "title": "Where can you get the gauntlets of ogre power in the game Baldurs Gate II: Shadows of Amn?",
             "answers": [
                 "The Shadow thieves cellar",
                 "The Temple ruins",
                 "The Planar prison",
                 "The Planar Sphere"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "What ranger can you save in the game Baldurs Gate II: Shadows of Amn by defeating the Shadow lord in the ruin temple?",
-            "answers": [
-                "Merella",
-                "Valygar",
-                "Minsc",
-                "Drizzt"
-            ],
-            "correct": 0
-        },
-        {
-            "title": "What organization takes Imoen from you, after you escape the first level in the game Baldurs Gate II: Shadows of Amn?",
-            "answers": [
-                "The Athkatla Guard",
-                "The Emerald warriors",
-                "The Shadow Thieves",
-                "The Cowled Wizards"
             ],
             "correct": 3
         },
@@ -18541,16 +15857,6 @@
                 "Farmhouse"
             ],
             "correct": 2
-        },
-        {
-            "title": "When you pick up scents in the game Dogs Life, which of the following is not part of a competition with another dog?",
-            "answers": [
-                "Marking territory",
-                "Barking competition",
-                "Digging holes",
-                "Doing tricks"
-            ],
-            "correct": 1
         },
         {
             "title": "What are the names of Miss Peaches henchmen in the Dogs Life game?",

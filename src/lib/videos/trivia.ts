@@ -7,7 +7,9 @@ import { TriviaQuestion, TriviaCategory } from "../types/trivia";
 
 import triviaQuestions from "../../resources/trivia/questions.json";
 
-export async function produceTriviaShort(output: string, questionCount: number) {
+const QUESTION_COUNT = 3;
+
+export async function produceTriviaShort(output: string) {
 
     // Pick a random category of trivia questions
     const questionsCategory = sample(Object.keys(triviaQuestions)) as TriviaCategory;
@@ -17,7 +19,7 @@ export async function produceTriviaShort(output: string, questionCount: number) 
 
     // Pick a random set of questions from that category
     const questions: TriviaQuestion[] = [];
-    for (let i = 0; i < questionCount; i++) {
+    for (let i = 0; i < QUESTION_COUNT; i++) {
         const question = sample(triviaQuestions[questionsCategory]);
         if (!question) {
             throw Error(`the trivia category '${questionsCategory}' has no defined questions.`);
@@ -31,9 +33,7 @@ export async function produceTriviaShort(output: string, questionCount: number) 
     }
 
     // Pick a random lofi music track
-    const lofiTrackFile = sample(
-        readdirSync("src/resources/music/lofi")
-    );
+    const lofiTrackFile = sample(readdirSync("src/resources/music/lofi"));
     if (!lofiTrackFile) {
         throw Error("there are no defined lofi music tracks.");
     }
