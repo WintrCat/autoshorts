@@ -1,3 +1,4 @@
 import { produceTriviaShort } from "./lib/videos/trivia";
+import { producePuzzleShort } from "./lib/videos/puzzle";
 
-produceTriviaShort("out/trivia.mp4");
+producePuzzleShort("out/chess.mp4");
