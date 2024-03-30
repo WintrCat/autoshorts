@@ -144,7 +144,7 @@ def produce_short(
 
     result.write_videofile(
         output, 
-        fps=10, 
+        fps=24, 
         audio_codec="aac",
         threads=4,
         temp_audiofile="out/TEMP_trivia.mp4"

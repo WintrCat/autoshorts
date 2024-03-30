@@ -1,7 +1,9 @@
 import { readdirSync } from "fs";
 import { sample } from "lodash";
+import { Socket } from "socket.io";
 
 import { renderVideo } from "../video";
+import { ShortType } from "../types/short";
 import { TriviaVideoOptions } from "../types/options";
 import { TriviaQuestion, TriviaCategory } from "../types/trivia";
 
@@ -9,7 +11,7 @@ import triviaQuestions from "../../resources/trivia/questions.json";
 
 const QUESTION_COUNT = 3;
 
-export async function produceTriviaShort(output: string) {
+export async function produceTriviaShort(output: string, socket: Socket) {
 
     // Pick a random category of trivia questions
     const questionsCategory = sample(Object.keys(triviaQuestions)) as TriviaCategory;
@@ -40,7 +42,7 @@ export async function produceTriviaShort(output: string) {
 
     // Render video
     renderVideo<TriviaVideoOptions>(
-        "trivia",
+        ShortType.TRIVIA,
         {
             output: output,
             questions: questions,
@@ -49,7 +51,8 @@ export async function produceTriviaShort(output: string) {
                 font: "src/resources/default.ttf",
                 music: "src/resources/music/lofi/" + lofiTrackFile
             }
-        }
+        },
+        socket
     );
 
 }

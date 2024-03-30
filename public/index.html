@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Autoshorts</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="/index.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+</head>
+<body>
+    <div class="content column">
+        <h1>Autoshorts</h1>
+
+        <div class="short-type-option-container column">
+            <span>Short Type</span>
+            <select class="short-type-option field">
+                <option value="trivia">❓Trivia</option>
+                <option value="chess/puzzle">🧩 Chess Puzzle</option>
+            </select>
+        </div>
+
+        <div class="short-extra-data-container column">
+            <span class="short-extra-data-title">Extra data</span>
+            <textarea 
+                class="short-extra-data field" 
+                cols="30" 
+                rows="10"
+            ></textarea>
+        </div>
+
+        <div class="production-logs"></div>
+
+        <button class="produce-video btn">PRODUCE SHORT</button>
+    </div>
+
+    <script src="/index.js"></script>
+</body>
+</html>

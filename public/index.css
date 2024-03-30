@@ -1,0 +1,41 @@
+.content {
+    gap: 20px;
+
+    width: 100%;
+    height: 80vh;
+}
+
+.short-type-option-container {
+    gap: 5px;
+}
+
+.short-type-option {
+    width: 200px;
+    height: 30px;
+
+    text-align: center;
+}
+
+.short-extra-data-container {
+    display: none;
+}
+
+.short-extra-data {
+    resize: none;
+}
+
+.production-logs {
+    display: none;
+    flex-direction: column;
+    padding: 5px;
+
+    width: min(350px, 90%);
+    height: 160px;
+
+    border: 1px solid #5a5a5a;
+    border-radius: 10px;
+    background-color: var(--secondary-color-darker2);
+
+    overflow-y: auto;
+    font-family: monospace;
+}
