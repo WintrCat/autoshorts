@@ -16,9 +16,9 @@ from moviepy.audio.fx.volumex import volumex
 from board import *
 
 clip_durations = {
-    "puzzle": 1,
+    "puzzle": 10,
     "move": 0.2,
-    "solution": 1,
+    "solution": 2.5,
     "line_move": 1
 }
 
@@ -243,6 +243,13 @@ def produce_short(
         0.5
     )
 
+    # Thunder sound effect on brilliant move
+    thunder_sfx_clip = volumex(
+        editor.AudioFileClip("src/resources/chess/thunder.mp3")
+        .set_start(clip_durations["puzzle"] - 0.4),
+        0.5
+    )
+
     result = editor.CompositeVideoClip([
         background,
         question_text,
@@ -252,6 +259,7 @@ def produce_short(
         *line_board_clips
     ], size=(1080, 1920))
     result.audio.clips.append(music_clip)
+    result.audio.clips.append(thunder_sfx_clip)
 
     result.write_videofile(
         filename=output,
