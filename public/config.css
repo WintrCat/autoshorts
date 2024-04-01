@@ -1,0 +1,27 @@
+.short-configuration {
+    display: none;
+    gap: 5px;
+}
+
+.short-preview {
+    width: min(300px, 90%);
+    border: 2px solid black;
+}
+
+.short-configuration-fields {
+    gap: 10px;
+}
+
+.short-title {
+    width: min(400px, 90%);
+    height: 30px;
+}
+
+.short-description {
+    width: min(400px, 90%);
+    resize: none;
+}
+
+.upload-button {
+    background-color: rgb(255, 45, 45);
+}

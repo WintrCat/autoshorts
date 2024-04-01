@@ -14,8 +14,8 @@ export function createSocketServer(httpServer: HTTPServer) {
     io.on("connection", socket => {
         socket.on("produce", (type?: ShortType, data?: string) => {
             if (!type) return;
-
             console.log(`received a request to produce a ${type} short.`);
+
             produceShort(type, socket, data);
         });
     });
@@ -28,17 +28,21 @@ async function produceShort(
     data?: string // Extra required parameters (like a PGN)
 ) {
 
-    const shortFilename = `out/${generateUUID()}.mp4`;
+    const outputDirectory = "out";
+    const outputFilename = `${generateUUID()}.mp4`;
+    const outputPath = `${outputDirectory}/${outputFilename}`;
 
     switch (type) {
         case ShortType.TRIVIA:
-            produceTriviaShort(shortFilename, socket);
+            await produceTriviaShort(outputPath, socket);
             break;
         case ShortType.CHESS_PUZZLE:
             if (data) {
-                producePuzzleShort(shortFilename, socket, data);
+                await producePuzzleShort(outputPath, socket, data);
             }
             break;
     }
+
+    socket.emit("render done", outputFilename);
 
 }

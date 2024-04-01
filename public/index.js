@@ -21,6 +21,7 @@ $(".produce-video").on("click", () => {
     const socket = io({ reconnection: false });
 
     socket.on("connect", () => {
+        $(".short-configuration").css("display", "none");
         $(".production-logs").css("display", "flex");
         $(".production-logs").html("<span>Spawning Python process...</span>");
 
@@ -32,6 +33,12 @@ $(".produce-video").on("click", () => {
 
         socket.on("render info", message => {
             $(".production-logs").append(`<span>${message}</span>`);
+        });
+
+        socket.on("render done", filename => {
+            $(".short-configuration").css("display", "flex");
+            $(".short-filename").html(filename);
+            $(".short-preview").attr("src", `/media/${filename}`);
         });
     });
 

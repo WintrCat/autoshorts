@@ -15,6 +15,10 @@ h1 {
     margin: 0;
 }
 
+textarea {
+    font-family: system-ui, sans-serif;
+}
+
 .column {
     display: flex;
     flex-direction: column;

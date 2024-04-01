@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/global.css">
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/render.css">
+    <link rel="stylesheet" href="/config.css">
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
@@ -27,12 +28,19 @@
             <span class="short-extra-data-title">Extra data</span>
             <textarea 
                 class="short-extra-data field" 
-                cols="30" 
+                cols="60" 
                 rows="10"
             ></textarea>
         </div>
 
         <div class="production-logs"></div>
+
+        <div class="short-configuration column">
+            <b>✅ Rendering Complete</b>
+            <span class="short-filename"></span>
+
+            <video class="short-preview" controls></video>
+        </div>
 
         <button class="produce-video btn">PRODUCE SHORT</button>
     </div>

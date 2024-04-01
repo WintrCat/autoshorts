@@ -8,6 +8,7 @@ import { createSocketServer } from "./socket";
 const app = express();
 
 app.use("/", express.static("public"));
+app.use("/media", express.static("out"));
 
 app.get("/", async (req, res) => {
     res.sendFile(path.resolve("public/index.html"));
