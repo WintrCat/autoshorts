@@ -2311,16 +2311,6 @@
             "correct": 2
         },
         {
-            "title": "Finish this old phrase:",
-            "answers": [
-                "climbs the curtains",
-                "runs away from you",
-                "thinks its dinner time",
-                "takes a message"
-            ],
-            "correct": 3
-        },
-        {
             "title": "Why does your cat interrupt you and want petting when youre on the phone?",
             "answers": [
                 "your cat thinks you are talking to him/ her",
@@ -12429,16 +12419,6 @@
                 "Legend of Zelda",
                 "Super Mario Bros.",
                 "Kirbys Adventure"
-            ],
-            "correct": 3
-        },
-        {
-            "title": "This is the theme to what Xbox video game?",
-            "answers": [
-                "Final Fantasy",
-                "Eldar Scrolls IV: Oblivion",
-                "Rainbow 6",
-                "Halo"
             ],
             "correct": 3
         },

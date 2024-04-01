@@ -41,7 +41,7 @@ export async function produceTriviaShort(output: string, socket: Socket) {
     }
 
     // Render video
-    renderVideo<TriviaVideoOptions>(
+    await renderVideo<TriviaVideoOptions>(
         ShortType.TRIVIA,
         {
             output: output,
