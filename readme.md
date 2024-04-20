@@ -3,7 +3,9 @@
 ### 🚀 Running Locally
 #### Prerequisites
 - Reasonably updated Node.js runtime installed
+- TypeScript package installed
 - Python 3.11 or later installed
+- ImageMagick installed
 
 #### Instructions
 - `git clone` this repository or download as ZIP and extract it somewhere.
