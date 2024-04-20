@@ -13,6 +13,7 @@
 - `npm run setup` to install the required Python and Node.js packages.
 - `npm start` to start the webserver for the interface.
 - Go to `localhost:8080` on your browser unless you have defined another port.
+- For chess videos, mark a move in your PGN as brilliant with `!!`, e.g `Bxc3+!!`.
 - Generated shorts are stored in the `out` directory, which you will find in the project folder.
 
 ### 📜 NPM Scripts
