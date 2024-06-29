@@ -166,7 +166,10 @@ def produce_short(
     brilliancy_board.push(lowest_value_capture)
 
     # Go through the next couple top engine moves and add their board clips
-    sf_engine = Stockfish("./src/resources/bin/stockfish.exe")
+    try:
+        sf_engine = Stockfish("./src/resources/bin/stockfish.exe")
+    except PermissionError:
+        sf_engine = Stockfish("./src/resources/bin/stockfish/stockfish-ubuntu-x86-64-avx2")
     sf_engine.set_depth(18)
     sf_engine.set_fen_position(brilliancy_board.fen())
 
