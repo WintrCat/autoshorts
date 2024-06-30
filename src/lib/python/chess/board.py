@@ -235,7 +235,9 @@ def draw_move_with_preview(
 
 def get_move_audio(move_san: str):
     move_audio_clip_name = "move"
-    if move_san.endswith("+"):
+    if move_san.endswith("#"):
+        move_audio_clip_name = "checkmate"
+    elif move_san.endswith("+"):
         move_audio_clip_name = "check"
     elif "x" in move_san:
         move_audio_clip_name = "capture"
