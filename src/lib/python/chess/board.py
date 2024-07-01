@@ -1,7 +1,7 @@
 from chess import (
-    Board, 
-    square_name as square_name_of, 
-    parse_square, 
+    Board,
+    square_name as square_name_of,
+    parse_square,
     PAWN
 )
 
@@ -25,12 +25,13 @@ PIECES = {
     "P": "white_pawn"
 }
 
+
 def slide_to_position(
     start: tuple[int, int],
     end: tuple[int, int],
     duration: int
 ):
-    return lambda t : (
+    return lambda t: (
         start[0] + (min(t, duration) / duration) * (end[0] - start[0]),
         start[1] + (min(t, duration) / duration) * (end[1] - start[1])
     )
@@ -46,8 +47,10 @@ def get_square(x: int, y: int, flipped: bool = False):
 def get_coordinates(square: str, flipped: bool = False, board_width: int = 1080):
     files = list("abcdefgh")
     return (
-        ((7 - files.index(square[0])) if flipped else files.index(square[0])) * (board_width / 8),
-        ((int(square[1]) - 1) if flipped else 8 - int(square[1])) * (board_width / 8)
+        ((7 - files.index(square[0]))
+         if flipped else files.index(square[0])) * (board_width / 8),
+        ((int(square[1]) - 1) if flipped else 8 -
+         int(square[1])) * (board_width / 8)
     )
 
 
@@ -60,7 +63,7 @@ def draw_board(
     audio: bool = False,
     width: int = 1080,
     duration: float = 10
-):  
+):
     # Board
     board_flip_suffix = "flipped" if flipped else ""
     background = resize(
@@ -77,7 +80,7 @@ def draw_board(
     # Pieces on the board with animation if requested
     ep_square = None
     ep_fade_square = None
-    
+
     if not board.ep_square is None:
         ep_square = square_name_of(board.ep_square)
         if ep_square[1] == "3":
@@ -123,7 +126,7 @@ def draw_board(
                         and board.piece_at(parse_square(highlighted_move[0:2])).piece_type == PAWN
                     )
                 ):
-                    piece = crossfadeout(piece, duration - 0.05)                    
+                    piece = crossfadeout(piece, duration - 0.05)
 
             piece_clips.append(piece)
 
@@ -136,10 +139,11 @@ def draw_board(
 
         move_highlights = [
             resize(
-                editor.ImageClip(f"{RESOURCES}/{highlight_type}highlight.png") 
+                editor.ImageClip(f"{RESOURCES}/{highlight_type}highlight.png")
                 .set_duration(duration)
                 .set_position(
-                    get_coordinates(highlighted_move[i * 2 : i * 2 + 2], flipped)
+                    get_coordinates(
+                        highlighted_move[i * 2: i * 2 + 2], flipped)
                 )
                 .set_opacity(0.7 if brilliancy else 0.5),
 
@@ -154,7 +158,8 @@ def draw_board(
         classification_icon_position = list(
             get_coordinates(highlighted_move[2:4], flipped)
         )
-        classification_icon_position[0] += (width / 8) - (classification_icon_size / 1.5)
+        classification_icon_position[0] += (width / 8) - \
+            (classification_icon_size / 1.5)
         classification_icon_position[1] -= classification_icon_size / 3
 
         classification_icon = resize(
@@ -162,7 +167,7 @@ def draw_board(
             .set_duration(duration)
             .set_position(tuple(classification_icon_position)),
             newsize=(
-                classification_icon_size, 
+                classification_icon_size,
                 classification_icon_size
             )
         )
@@ -234,12 +239,21 @@ def draw_move_with_preview(
 
 
 def get_move_audio(move_san: str):
-    move_audio_clip_name = "move"
-    if move_san.endswith("#"):
-        move_audio_clip_name = "checkmate"
-    elif move_san.endswith("+"):
-        move_audio_clip_name = "check"
-    elif "x" in move_san:
-        move_audio_clip_name = "capture"
+    audio_mapping = {
+        "#": ["check", "checkmate"],
+        "+": ["check"],
+        "x": ["capture"]
+    }
 
-    return editor.AudioFileClip(f"./src/resources/chess/{move_audio_clip_name}.mp3")
+    move_audio_clip_names = []
+    for key, clips in audio_mapping.items():
+        if key in move_san:
+            move_audio_clip_names.extend(clips)
+            break
+    else:
+        move_audio_clip_names.append("move")
+
+    audio_clips = [editor.AudioFileClip(
+        f"./src/resources/chess/{clip}.mp3") for clip in move_audio_clip_names]
+
+    return editor.concatenate_audioclips(audio_clips)
