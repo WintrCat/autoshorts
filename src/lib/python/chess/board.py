@@ -1,7 +1,7 @@
 from chess import (
-    Board, 
-    square_name as square_name_of, 
-    parse_square, 
+    Board,
+    square_name as square_name_of,
+    parse_square,
     PAWN
 )
 
@@ -60,7 +60,7 @@ def draw_board(
     audio: bool = False,
     width: int = 1080,
     duration: float = 10
-):  
+):
     # Board
     board_flip_suffix = "flipped" if flipped else ""
     background = resize(
@@ -123,7 +123,7 @@ def draw_board(
                         and board.piece_at(parse_square(highlighted_move[0:2])).piece_type == PAWN
                     )
                 ):
-                    piece = crossfadeout(piece, duration - 0.05)                    
+                    piece = crossfadeout(piece, duration - 0.05)
 
             piece_clips.append(piece)
 
@@ -136,7 +136,7 @@ def draw_board(
 
         move_highlights = [
             resize(
-                editor.ImageClip(f"{RESOURCES}/{highlight_type}highlight.png") 
+                editor.ImageClip(f"{RESOURCES}/{highlight_type}highlight.png")
                 .set_duration(duration)
                 .set_position(
                     get_coordinates(highlighted_move[i * 2 : i * 2 + 2], flipped)
@@ -162,7 +162,7 @@ def draw_board(
             .set_duration(duration)
             .set_position(tuple(classification_icon_position)),
             newsize=(
-                classification_icon_size, 
+                classification_icon_size,
                 classification_icon_size
             )
         )
@@ -234,10 +234,23 @@ def draw_move_with_preview(
 
 
 def get_move_audio(move_san: str):
-    move_audio_clip_name = "move"
-    if move_san.endswith("+"):
-        move_audio_clip_name = "check"
-    elif "x" in move_san:
-        move_audio_clip_name = "capture"
+    audio_mapping = {
+        "#": ["check", "checkmate"],
+        "+": ["check"],
+        "x": ["capture"]
+    }
 
-    return editor.AudioFileClip(f"./src/resources/chess/{move_audio_clip_name}.mp3")
+    move_audio_clip_names = []
+    for key, clips in audio_mapping.items():
+        if key in move_san:
+            move_audio_clip_names.extend(clips)
+            break
+    else:
+        move_audio_clip_names.append("move")
+
+    audio_clips = [
+        editor.AudioFileClip(f"./src/resources/chess/{clip}.mp3")
+        for clip in move_audio_clip_names
+    ]
+    
+    return editor.CompositeAudioClip(audio_clips)
